@@ -11,6 +11,7 @@ Pattern library framework for styleguide driven development with Sass, ES6+ and 
 1. [Installation](#installation)
 1. [Project Structure](#project-structure)
 1. [Configuration](#configuration)
+   1. [webpack](#webpack)
    1. [Branding](#branding)
    1. [Config files](#config-files)
 1. [Usage](#usage)
@@ -81,6 +82,45 @@ npm install
 
 
 ## Configuration
+
+### webpack
+
+Located in `config/webpack.js`.
+
+For simple changes export a `configure`-object which will be merged into the existing webpack config with [webpack-merge](https://github.com/survivejs/webpack-merge).
+
+```js
+module.exports = {
+  configure: {
+    // Merge config changes
+    entry: './src/main.js'
+  }
+}
+```
+
+For more advanced changes export `configure` as a function that receives the current context as the first argument.
+
+```js
+module.exports = {
+  configure: context => {
+    if (process.env.FESG_ENV === 'dev') {
+      // return config for `dev` task
+    }
+
+    if (process.env.FESG_ENV === 'build') {
+      // return config for `build` task
+    }
+
+    if (process.env.FESG_ENV === 'build:dev') {
+      // return config for `build:dev` task
+    }
+
+    if (process.env.FESG_ENV === 'build:proto') {
+      // return config for `build:proto` task
+    }
+  }
+}
+```
 
 ### Branding
 
