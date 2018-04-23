@@ -7,9 +7,10 @@ Pattern library framework for styleguide driven development with Sass, ES6+ and 
 
 ## Contents
 
-1. [Prerequisites](#prerequisites)
-1. [Installation](#installation)
-1. [Project Structure](#project-structure)
+1. [Getting started](#getting-started)
+   1. [Prerequisites](#prerequisites)
+   1. [Create a new project](#create-a-new-project)
+   1. [Project structure](#project-structure)
 1. [Configuration](#configuration)
    1. [webpack](#webpack)
    1. [Branding](#branding)
@@ -22,25 +23,50 @@ Pattern library framework for styleguide driven development with Sass, ES6+ and 
    1. [Assets](#assets)
 1. [Testing](#testing)
    1. [Unit](#unit)
-   1. [End-to-End](#end-to-end)
+   1. [End-to-end](#end-to-end)
 
 
-## Prerequisites
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/) or npm (bundled with Node.js)
+## Getting started
 
+### Prerequisites
 
-## Installation
+* [Node.js](https://nodejs.org)
+* [Yarn](https://yarnpkg.com) or npm (bundled with Node.js)
+
+Install the [CLI](https://github.com/front-end-styleguide/cli) globally:
 
 ```bash
 # Yarn
-yarn
+yarn global add front-end-styleguide-cli
 
 # npm
+npm install -g front-end-styleguide-cli
+```
+
+### Create a new project
+
+```bash
+# Create a new folder for the project
+mkdir project-name
+
+# Change to the newly created folder
+cd project-name
+
+# Initialize a new styleguide project
+# and follow the on-screen questions
+# to customize the new project
+front-end-styleguide init
+
+# Install dependencies
+yarn
+# or
 npm install
 ```
 
-## Project Structure
+### Project structure
+
+The styleguide initialization creates the following folder and file structure:
+
 ```
 .
 ├── config
@@ -200,7 +226,7 @@ The styleguide adds a few custom gobal variables, filters, and tags.
 
 * `process.env`
   * `NODE_ENV`: Returns `development` or `production` (`{{ process.env.NODE_ENV }}`)
-  * `FESG_ENV`: Returns `dev`, `build`, or `build:dev` (`{{ process.env.FESG_ENV }}`)
+  * `FESG_ENV`: Returns `dev`, `build`, `build:dev` or `build:proto` (`{{ process.env.FESG_ENV }}`)
 * `fesg`
   * `head`: Outputs CSS and JS links (`{{ fesg.head }}`)
   * `sidebar`: Outputs the styleguide sidebar (`{{ fesg.sidebar }}`)
@@ -255,14 +281,14 @@ All files placed in `src/assets` are copied to the output directory. Image files
 
 ### Unit
 
-The project comes pre-configured with the [AVA test runner](https://github.com/avajs/ava) – a lightning fast framework for JavaScript unit tests. All unit test files should be placed in `test/unit`.
+The project comes pre-configured with the [AVA test runner](https://github.com/avajs/ava) – a lightning fast framework for JavaScript unit tests. All test files should end on `*.unit.js`. Tests should be placed next to the tested code (e.g. in `src/functions` or `src/components/name`)-
 
 The styleguide doesn't prescribe the testing framework. If you don't like AVA you can swap it for any other framework.
 
 
-### End-to-End
+### End-to-end
 
-End-to-End (e2e) testing is tricky. One of the simplest solutions is [TestCafe](https://devexpress.github.io/testcafe/) which comes pre-configured with the styleguide. All e2e test files should be placed in `test/e2e`.
+End-to-end (e2e) testing is tricky. One of the simplest solutions is [TestCafe](https://devexpress.github.io/testcafe/) which comes pre-configured with the styleguide. All test files should end on `*.e2e.js`. Tests should be placed next to the tested code (e.g. in `src/components/name` or `src/prototypes`).
 
 As with unit testing the e2e testing framework can be replaced with anything you like.
 
