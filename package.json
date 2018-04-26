@@ -1,0 +1,27 @@
+{
+  "name": "@pangolin/docs",
+  "version": "1.0.0",
+  "description": "Documentation for Pangolin projects",
+  "author": {
+    "name": "Fynn Becker",
+    "email": "info@fynn-becker.de"
+  },
+  "homepage": "https://pangolinjs.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pangolinjs/docs"
+  },
+  "bugs": {
+    "url": "https://github.com/pangolinjs/docs/issues",
+    "email": "info@fynn-becker.de"
+  },
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  }
+}

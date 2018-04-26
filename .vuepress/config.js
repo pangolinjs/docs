@@ -1,0 +1,80 @@
+module.exports = {
+  title: 'Pangolin',
+  description: 'Framework for componentized front end development with Nunjucks, Sass, and JavaScript',
+  head: [
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ff721f' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Pangolin' }],
+    ['meta', { name: 'application-name', content: 'Pangolin' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#ff721f' }],
+    ['meta', { name: 'theme-color', content: '#ff721f' }]
+  ],
+  themeConfig: {
+    repo: 'pangolinjs',
+    docsRepo: 'pangolinjs/docs',
+    editLinks: true,
+    nav: [
+      {
+        text: 'Documentation',
+        link: '/v4/'
+      },
+      {
+        text: 'Version',
+        items: [
+          {
+            text: 'v4',
+            link: '/v4/'
+          },
+          {
+            text: 'v3',
+            link: '/v3/'
+          },
+          {
+            text: 'v2',
+            link: '/v2/'
+          }
+        ]
+      },
+      {
+        text: 'Imprint',
+        link: 'https://fynn-becker.de/impressum.html'
+      }
+    ],
+    sidebar: {
+      '/v4/': [{
+        title: 'v4 Documentation',
+        collapsable: false,
+        children: [
+          '',
+          'getting-started',
+          'configuration',
+          'usage',
+          'testing'
+        ]
+      }],
+      '/v3/': [{
+        title: 'v3 Documentation',
+        collapsable: false,
+        children: [
+          '',
+          'configuration',
+          'folder-structure',
+          'usage',
+          'branding'
+        ]
+      }],
+      '/v2/': [{
+        title: 'v2 Documentation',
+        collapsable: false,
+        children: [
+          '',
+          'usage'
+        ]
+      }]
+    }
+  }
+}

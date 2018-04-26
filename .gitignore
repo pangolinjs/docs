@@ -4,3 +4,6 @@ Desktop.ini
 .DS_Store
 ._*
 *~
+
+node_modules
+/.vuepress/dist
