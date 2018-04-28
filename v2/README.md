@@ -4,6 +4,10 @@ Living Styleguide for componentized front end development.
 
 Uses the [Gulp](http://gulpjs.com/) task runner to compile and [lint](http://stylelint.io/) [Sass](http://sass-lang.com/), [lint](http://eslint.org/) JavaScript, [transpile](https://babeljs.io/) ES6 Code and create static HTML from [Handlebars](http://handlebarsjs.com/).
 
+::: danger DEPRECATED
+You are viewing the documentation for an old Pangolin version.
+:::
+
 
 ## Prerequisites
 

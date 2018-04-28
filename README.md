@@ -45,4 +45,4 @@ yarn
 npm install
 ```
 
-Documentation powered by [VuePress](https://vuepress.vuejs.org/).
+Powered by [VuePress](https://vuepress.vuejs.org) and hosted on [Netlify](https://www.netlify.com).

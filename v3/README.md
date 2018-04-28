@@ -7,6 +7,10 @@ Uses the [Gulp](http://gulpjs.com/) task runner to
 * [compile](https://babeljs.io/) and [lint](http://eslint.org/) JavaScript and
 * create static HTML from [Nunjucks](https://mozilla.github.io/nunjucks/).
 
+::: danger DEPRECATED
+You are viewing the documentation for an old Pangolin version.
+:::
+
 
 ## Prerequisites
 
