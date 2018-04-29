@@ -61,20 +61,27 @@ Located in the project root.
 
 ## webpack
 
-::: warning
-The webpack configuration is currently in beta and not available in the latest release.
-:::
-
 Located in `config/webpack.js`.
 
-For simple changes to the webpack config export a `configure`-object. This will be merged into the default webpack config with [webpack-merge](https://github.com/survivejs/webpack-merge).
+Overwrite default settings for the dev server.
 
 ```js
 module.exports = {
   devServer: {
-    // Overwrite default dev server config
+    // Auto-open in browser (defaults to false)
+    open: true,
+    // Set browser for auto-open (omit for default browser)
+    browser: 'firefox',
+    // Set port (defaults to 8080)
     port: 1337
-  },
+  }
+}
+```
+
+For simple changes to the webpack config set a `configure`-object. This will be merged into the default webpack config with [webpack-merge](https://github.com/survivejs/webpack-merge).
+
+```js
+module.exports = {
   configure: {
     // Merge config changes
     entry: './src/main.js'
@@ -82,7 +89,7 @@ module.exports = {
 }
 ```
 
-For more advanced changes export `configure` as a function. The first argument is the current context aka the project directory. This is needed for absolute webpack paths (e.g. `output.path`).
+For more advanced changes set `configure` as a function. The first argument is the current context aka the project directory. This is needed for absolute webpack paths (e.g. `output.path`).
 
 ```js
 module.exports = {
