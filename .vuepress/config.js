@@ -40,8 +40,8 @@ module.exports = {
         ]
       },
       {
-        text: 'Imprint',
-        link: 'https://fynn-becker.de/impressum.html'
+        text: 'About',
+        link: '/about'
       }
     ],
     sidebar: {
