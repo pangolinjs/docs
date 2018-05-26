@@ -1,4 +1,8 @@
-# Getting started
+---
+title: "[v4] Getting Started"
+---
+
+# Getting Started
 
 
 ## Prerequisites

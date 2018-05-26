@@ -26,15 +26,15 @@ module.exports = {
         text: 'Version',
         items: [
           {
-            text: 'v4',
+            text: 'Latest (v4)',
             link: '/v4/'
           },
           {
-            text: 'v3',
+            text: 'Legacy (v3)',
             link: '/v3/'
           },
           {
-            text: 'v2',
+            text: 'Legacy (v2)',
             link: '/v2/'
           }
         ]
@@ -49,30 +49,30 @@ module.exports = {
         title: 'v4 Documentation',
         collapsable: false,
         children: [
-          '',
-          'getting-started',
-          'configuration',
-          'usage',
-          'testing'
+          ['', 'Introduction'],
+          ['getting-started', 'Getting Started'],
+          ['configuration', 'Configuration'],
+          ['usage', 'Usage'],
+          ['testing', 'Testing']
         ]
       }],
       '/v3/': [{
         title: 'v3 Documentation',
         collapsable: false,
         children: [
-          '',
-          'configuration',
-          'folder-structure',
-          'usage',
-          'branding'
+          ['', 'Introduction'],
+          ['configuration', 'Configuration'],
+          ['folder-structure', 'Folder Structure'],
+          ['usage', 'Usage'],
+          ['branding', 'Branding']
         ]
       }],
       '/v2/': [{
         title: 'v2 Documentation',
         collapsable: false,
         children: [
-          '',
-          'usage'
+          ['', 'Introduction'],
+          ['usage', 'Usage']
         ]
       }]
     }
