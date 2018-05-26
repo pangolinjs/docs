@@ -1,3 +1,7 @@
+---
+title: "[v3] Introduction"
+---
+
 # Introduction
 
 Living Styleguide for componentized front end development.
