@@ -24,8 +24,12 @@ module.exports = {
         link: '/v4/'
       },
       {
-        text: 'Version',
+        text: 'All versions',
         items: [
+          {
+            text: 'Next (v5)',
+            link: '/v5/'
+          },
           {
             text: 'Latest (v4)',
             link: '/v4/'
@@ -46,6 +50,13 @@ module.exports = {
       }
     ],
     sidebar: {
+      '/v5/': [{
+        title: 'v5 Documentation',
+        collapsable: false,
+        children: [
+          ['', 'Introduction']
+        ]
+      }],
       '/v4/': [{
         title: 'v4 Documentation',
         collapsable: false,
