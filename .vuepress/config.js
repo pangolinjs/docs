@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Pangolin',
+  title: 'Pangolin Pattern Library',
   description: 'Framework for componentized front end development with Nunjucks, Sass, and JavaScript',
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
