@@ -17,6 +17,7 @@ module.exports = {
     repo: 'pangolinjs',
     docsRepo: 'pangolinjs/docs',
     editLinks: true,
+    displayAllHeaders: true,
     nav: [
       {
         text: 'Documentation',
