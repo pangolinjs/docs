@@ -67,6 +67,8 @@ Located in the project root.
 
 Located in `config/webpack.js`.
 
+### Dev server config
+
 Overwrite default settings for the dev server.
 
 ```js
@@ -81,6 +83,8 @@ module.exports = {
   }
 }
 ```
+
+### webpack config
 
 For simple changes to the webpack config set a `configure`-object. This will be merged into the default webpack config with [webpack-merge](https://github.com/survivejs/webpack-merge).
 
@@ -112,6 +116,24 @@ module.exports = {
 
     if (process.env.FESG_ENV === 'build:proto') {
       // return config for `build:proto` task
+    }
+  }
+}
+```
+
+### imagemin config
+
+Change imagemin settings with the [`imagemin` configuration object](https://github.com/Klathmon/imagemin-webpack-plugin#api).
+
+```js
+module.exports = {
+  imagemin: {
+    svgo: {
+      plugins: [{
+        // Keep symbols in icon sprites
+        cleanupIDs: false,
+        removeUselessDefs: false
+      }]
     }
   }
 }
