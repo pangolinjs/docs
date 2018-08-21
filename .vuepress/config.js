@@ -17,11 +17,10 @@ module.exports = {
     repo: 'pangolinjs',
     docsRepo: 'pangolinjs/docs',
     editLinks: true,
-    displayAllHeaders: true,
     nav: [
       {
         text: 'Documentation',
-        link: '/v4/'
+        link: '/v5/'
       },
       {
         text: 'All versions',
@@ -49,12 +48,18 @@ module.exports = {
         link: '/about'
       }
     ],
+    sidebarDepth: 2,
     sidebar: {
       '/v5/': [{
         title: 'v5 Documentation',
         collapsable: false,
         children: [
-          ['', 'Introduction']
+          ['', 'Introduction'],
+          ['getting-started', 'Getting Started'],
+          ['configuration', 'Configuration'],
+          ['usage', 'Usage'],
+          ['components', 'Components'],
+          ['testing', 'Testing']
         ]
       }],
       '/v4/': [{
