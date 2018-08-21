@@ -6,7 +6,7 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 
 ## Imprint
 
-**Fynn Becker**
+Fynn Becker
 
 [info@fynn-becker.de](mailto:info@fynn-becker.de)  
 +49 160 6737777
@@ -14,3 +14,9 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 Pillauer Straße 2b  
 22049 Hamburg  
 Germany
+
+## Acknowledgement
+
+These docs are powered by [VuePress](https://vuepress.vuejs.org) and hosted on [Netlify](https://www.netlify.com).
+
+The Pangolin CLI is heavily inspired by [Vue CLI](https://cli.vuejs.org).
