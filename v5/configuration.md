@@ -24,6 +24,7 @@ module.exports = {
   project: {
     name: 'Project name', // Default: Pangolin
     base: '/project-base/', // Default: /
+    fileNameHash: false, // Default: true
     branding: {
       colorTheme: '#5d675b', // Default: rgb(204, 91, 24)
       colorTitle: '#f7ef99', // Default: rgb(255, 255, 255)
@@ -49,6 +50,8 @@ module.exports = {
 
 ### Simple merge
 
+Merges project configuration with [webpack-merge](https://github.com/survivejs/webpack-merge) into default webpack configuration.
+
 ```js
 module.exports = {
   configure: {
@@ -60,6 +63,8 @@ module.exports = {
 ```
 
 ### Simple mutation
+
+Mutate webpack configuration properties directly. This allows more control e.g. with conditionals based on the current environment.
 
 ```js
 const path = require('path')
@@ -75,7 +80,7 @@ module.exports = {
 
 ### Advanced
 
-Every aspect of the webpack config can be changed with [webpack-chain](https://github.com/mozilla-neutrino/webpack-chain).
+[webpack-chain](https://github.com/mozilla-neutrino/webpack-chain) enables full control and expansion of all aspects of the webpack configuration.
 
 ```js
 const svgo = {
