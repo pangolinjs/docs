@@ -50,3 +50,5 @@ The build task produces up to two files:
 ## HTML
 
 [Nunjucks](https://mozilla.github.io/nunjucks/) is an HTML templating engine based on JavaScript. Pangolin creates static HTML from Nunjucks files. Take a look at the [templating docs](https://mozilla.github.io/nunjucks/templating.html) for further information on Nunjucks.
+
+Nunjucks resolves all file paths relative to the `src` folder.
