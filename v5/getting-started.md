@@ -58,23 +58,23 @@ This creates a project in a folder `project-name`. To create a new project in th
 
 ### Config files
 
-| File               | Purpose |
-|--------------------|---------|
-| .babelrc           | [Babel](https://babeljs.io) configuration |
-| .browserslistrc    | [Browserslist](https://github.com/browserslist/browserslist) configuration |
-| .eslintrc.json     | [ESLint](https://eslint.org) configuration |
-| .stylelint.json    | [stylelint](https://stylelint.io) configuration |
-| ava.config.js      | <Badge text="Optional" /> [AVA](https://ava.li) configuration |
-| jsconfig.json      | <Badge text="Optional" /> [VSCode](https://code.visualstudio.com/docs/languages/jsconfig) configuration |
-| pangolin.config.js | <Badge text="Optional" /> [Pangolin](configuration.md) configuration |
-| postcss.config.js  | [PostCSS](https://postcss.org) configuration |
+| File                 | Purpose |
+|----------------------|---------|
+| `.babelrc`           | [Babel](https://babeljs.io) configuration |
+| `.browserslistrc`    | [Browserslist](https://github.com/browserslist/browserslist) configuration |
+| `.eslintrc.json`     | [ESLint](https://eslint.org) configuration |
+| `.stylelint.json`    | [stylelint](https://stylelint.io) configuration |
+| `ava.config.js`      | <Badge text="Optional" /> [AVA](https://ava.li) configuration |
+| `jsconfig.json`      | <Badge text="Optional" /> [VSCode](https://code.visualstudio.com/docs/languages/jsconfig) configuration |
+| `pangolin.config.js` | <Badge text="Optional" /> [Pangolin](configuration.md) configuration |
+| `postcss.config.js`  | [PostCSS](https://postcss.org) configuration |
 
 ### `src` folder
 
-| Folder     | Purpose |
-|------------|---------|
-| components | From the smallest bit to the largest page — everything that can be abstracted into a general pattern. |
-| functions  | General purpose Sass or JavaScript functions. |
-| public     | Static files that will be copied 1:1 to the output directory. Compresses images losslessly with [imagemin](https://github.com/imagemin/imagemin). |
-| setup      | Base files for global setup, e.g. variables or `body` styles. |
-| templates  | Nunjucks page templates. Must always contain a `default.njk` template. |
+| Folder       | Purpose |
+|--------------|---------|
+| `components` | From the smallest bit to the largest page — everything that can be abstracted into a general pattern. |
+| `functions`  | <Badge text="Changeable" /> General purpose Sass or JavaScript functions. |
+| `public`     | Static files that will be copied 1:1 to the output directory. Compresses images losslessly with [imagemin](https://github.com/imagemin/imagemin). |
+| `setup`      | <Badge text="Changeable" /> Base files for global setup, e.g. variables or `body` styles. |
+| `templates`  | Nunjucks page templates. Has to contain a `default.njk` template. |
