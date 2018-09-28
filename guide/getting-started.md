@@ -4,7 +4,8 @@
 ## Prerequisites
 
 * [Node.js](https://nodejs.org)
-* [Yarn](https://yarnpkg.com) or npm (bundled with Node.js)
+<!-- The non-breaking space fixes a bug with VuePress rendering -->
+* &nbsp;<Badge text="Optional" /> [Yarn](https://yarnpkg.com)
 
 Install the [CLI](https://github.com/pangolinjs/cli) globally:
 
