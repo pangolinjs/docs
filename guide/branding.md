@@ -1,7 +1,3 @@
----
-title: "[v3] Branding"
----
-
 # Branding
 
 The styleguide provides branding capabilities for the navigation bar and the component pages. Custom colors, an icon and logo can be set.
