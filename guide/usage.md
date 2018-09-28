@@ -1,7 +1,3 @@
----
-title: "[v1] Usage"
----
-
 # Usage
 
 ## Tasks
