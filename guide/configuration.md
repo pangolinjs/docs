@@ -18,13 +18,27 @@ These take precedence over the `pangolin.config.js` file.
 ```js
 module.exports = {
   project: {
-    name: 'Project name', // Default: Pangolin
-    base: '/project-base/', // Default: /
-    fileNameHash: false, // Default: true
+    // Set the project name which will be used throughout the UI
+    // Default: Pangolin
+    name: 'Project name',
+
+    // Set a different base path if the dev build
+    // will be deployed in a sub-directory
+    // Default: /
+    base: '/project-base/',
+
+    // Disable webpack’s asset hashing
+    // Default: true
+    fileNameHash: false,
+
+    // Set custom UI colors
     branding: {
-      colorTheme: '#5d675b', // Default: rgb(204, 91, 24)
-      colorTitle: '#f7ef99', // Default: rgb(255, 255, 255)
-      favicon: 'favicon.ico' // Default: undefined
+      // Default: rgb(204, 91, 24)
+      colorTheme: '#5d675b',
+      // Default: rgb(255, 255, 255)
+      colorTitle: '#f7ef99',
+      // Default: undefined
+      favicon: 'favicon.ico'
     }
   }
 }
@@ -35,9 +49,17 @@ module.exports = {
 ```js
 module.exports = {
   devServer: {
-    open: true, // Default: false
-    browser: 'firefox', // Default: undefined
-    port: 1337 // Default: 8080
+    // Auto-open in browser
+    // Default: false
+    open: true,
+
+    // Set the desired browser for auto-open
+    // Default: undefined
+    browser: 'firefox',
+
+    // Set the desired UI port
+    // Default: 8080
+    port: 1337
   }
 }
 ```
@@ -96,6 +118,27 @@ module.exports = {
           args[0].svgo = svgo
           return args
         })
+    }
+  }
+}
+```
+
+## Nunjucks settings
+
+### Filters
+
+Add [custom Nunjucks filters](https://mozilla.github.io/nunjucks/api.html#custom-filters) to the rendering environment. The function name will be used as the filter name.
+
+```js
+module.exports = {
+  nunjucks: {
+    filters: {
+      shorten: function (str, count) {
+        return str.slice(0, count || 5) + '…'
+      },
+      lengthen: function (str) {
+        // …
+      }
     }
   }
 }
