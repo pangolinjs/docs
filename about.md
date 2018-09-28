@@ -11,8 +11,8 @@ Fynn Becker
 [info@fynn-becker.de](mailto:info@fynn-becker.de)  
 +49 160 6737777
 
-Pillauer Straße 2b  
-22049 Hamburg  
+Brandenburger Straße 30  
+21244 Buchholz  
 Germany
 
 ## Acknowledgement
