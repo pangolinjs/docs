@@ -58,6 +58,7 @@ module.exports = {
           ['getting-started', 'Getting Started'],
           ['configuration', 'Configuration'],
           ['usage', 'Usage'],
+          ['templates', 'Templates'],
           ['components', 'Components'],
           ['testing', 'Testing']
         ]
