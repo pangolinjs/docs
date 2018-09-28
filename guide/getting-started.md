@@ -1,7 +1,3 @@
----
-title: "[v4] Getting Started"
----
-
 # Getting Started
 
 

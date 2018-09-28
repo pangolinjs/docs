@@ -1,7 +1,3 @@
----
-title: "[v4] Introduction"
----
-
 # Introduction
 
 Pangolin is a framework for componentized front end development with Nunjucks, Sass and JavaScript. It helps building a pattern library for web projects of all scales — small, medium, and large.
