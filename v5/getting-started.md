@@ -77,4 +77,4 @@ This creates a project in a folder `project-name`. To create a new project in th
 | `functions`  | <Badge text="Changeable" /> General purpose Sass or JavaScript functions. |
 | `public`     | Static files that will be copied 1:1 to the output directory. Compresses images losslessly with [imagemin](https://github.com/imagemin/imagemin). |
 | `setup`      | <Badge text="Changeable" /> Base files for global setup, e.g. variables or `body` styles. |
-| `templates`  | Nunjucks page templates. Has to contain a `default.njk` template. |
+| `templates`  | Nunjucks page templates. Must contain at least a `default.njk` template. |
