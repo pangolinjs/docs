@@ -1,7 +1,3 @@
----
-title: "[v5] Configuration"
----
-
 # Configuration
 
 Located at `pangolin.config.js` in the project root.

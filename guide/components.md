@@ -1,7 +1,3 @@
----
-title: "[v5] Components"
----
-
 # Components
 
 Located at `src/components`.
