@@ -2,7 +2,7 @@
 home: true
 heroImage: /icon.svg
 actionText: Get Started →
-actionLink: /v5/
+actionLink: /guide/
 features:
 - title: Nunjucks
   details: Nunjucks is an HTML templating engine based on JavaScript. The styleguide creates static HTML from Nunjucks files.

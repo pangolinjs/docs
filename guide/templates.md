@@ -1,7 +1,3 @@
----
-title: "[v5] Templates"
----
-
 # Templates
 
 Located at `src/templates`.
