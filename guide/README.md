@@ -11,5 +11,6 @@ Pangolin is a framework for componentized frontend development with Nunjucks, Sa
 * [Getting Started](getting-started.md)
 * [Configuration](configuration.md)
 * [Usage](usage.md)
+* [Templates](templates.md)
 * [Components](components.md)
 * [Testing](testing.md)
