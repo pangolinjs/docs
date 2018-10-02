@@ -101,24 +101,14 @@ module.exports = {
 [webpack-chain](https://github.com/mozilla-neutrino/webpack-chain) enables full control and expansion of all aspects of the webpack configuration.
 
 ```js
-const svgo = {
-  plugins: [{
-    // Keep symbols in icon sprites
-    cleanupIDs: false,
-    removeUselessDefs: false
-  }]
-}
-
 module.exports = {
   chain (config) {
-    if (process.env.PANGOLIN_ENV === 'build') {
-      config
-        .plugin('imagemin')
-        .tap(args => {
-          args[0].svgo = svgo
-          return args
-        })
-    }
+    config
+      .plugin('progress')
+      .tap(args => {
+        args[0].name = 'Project name'
+        return args
+      })
   }
 }
 ```
