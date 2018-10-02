@@ -18,6 +18,7 @@ module.exports = {
     docsRepo: 'pangolinjs/docs',
     docsBranch: 'master',
     editLinks: true,
+    displayAllHeaders: true,
     nav: [
       {
         text: 'Guide',

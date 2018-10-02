@@ -4,10 +4,13 @@ Located at `src/templates`.
 
 Templates are used to render the basic HTML structure around components. A `default.njk` template is required as a fallback for all components, that don’t explicitly set a template. Other template names can be chosen freely.
 
-The following is an example for a minimal template:
+
+## Simple example
+
+The following is an example for a “minimal viable template”:
 
 ::: v-pre
-```twig
+```django
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,10 +26,13 @@ The following is an example for a minimal template:
 
 `{% block pangolin_head %}{% endblock %}` and `{% block pangolin_body %}{% endblock %}` are necessary injection points for Pangolin. Everything else can be changed.
 
-A slightly more advanced template includes more metadata:
+
+## Advanced example
+
+A slightly more advanced template may include more metadata or additional markup:
 
 ::: v-pre
-```twig
+```django
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,7 +47,9 @@ A slightly more advanced template includes more metadata:
     {% block pangolin_head %}{% endblock %}
   </head>
   <body>
-    {% block pangolin_body %}{% endblock %}
+    <div class="container">
+      {% block pangolin_body %}{% endblock %}
+    </div>
   </body>
 </html>
 ```
