@@ -2,7 +2,7 @@
 
 Located at `src/templates`.
 
-Templates are used to render the basic HTML structure around components. A `default.njk` template is required as a fallback for all components, that don’t explicitly set a template. Other template names can be chosen freely.
+Templates are used to render the basic HTML structure around components. A `default.njk` template is required as a fallback for all components that don’t explicitly set a template. Other templates can be named freely.
 
 
 ## Simple example
@@ -41,15 +41,16 @@ A slightly more advanced template may include more metadata or additional markup
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{{ page.name }} | Preview | {{ project.name }}</title>
-
     <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
 
     {% block pangolin_head %}{% endblock %}
   </head>
   <body>
+  
     <div class="container">
       {% block pangolin_body %}{% endblock %}
     </div>
+    
   </body>
 </html>
 ```
