@@ -7,10 +7,10 @@ Located at `pangolin.config.js` in the project root.
 
 These take precedence over the `pangolin.config.js` file.
 
-| Name            | Purpose |
-|-----------------|---------|
-| `PANGOLIN_BASE` | Sets the project base path for builds. |
-| `PANGOLIN_PORT` | Sets the dev server port. |
+| Name            | Purpose                                | `pangolin.config.js` |
+|-----------------|----------------------------------------|----------------------|
+| `PANGOLIN_BASE` | Sets the project base path for builds. | `project.base`       |
+| `PANGOLIN_PORT` | Sets the dev server port.              | `devServer.port`     |
 
 
 ## Project settings
