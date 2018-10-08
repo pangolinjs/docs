@@ -1,8 +1,6 @@
 # Introduction
 
-The next major update to Pangolin is currently in development. Please check the [GitHub master branch](https://github.com/pangolinjs/core) if you’re interested in the state of the framework.
-
-::: warning WIP
+::: warning Alpha
 This version is work-in-progress and everything is subject to change.
 :::
 
