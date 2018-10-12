@@ -48,7 +48,6 @@ This creates a project in a new folder `project-name`. To create a new project i
 ├── .browserslistrc
 ├── .eslintrc.json
 ├── .stylelintrc.json
-├── [ava.config.js]
 ├── [jsconfig.json]
 ├── [pangolin.config.js]
 └── postcss.config.js
@@ -62,7 +61,6 @@ This creates a project in a new folder `project-name`. To create a new project i
 | `.browserslistrc`    | [Browserslist](https://github.com/browserslist/browserslist) configuration                              |
 | `.eslintrc.json`     | [ESLint](https://eslint.org) configuration                                                              |
 | `.stylelint.json`    | [stylelint](https://stylelint.io) configuration                                                         |
-| `ava.config.js`      | <Badge text="Optional" /> [AVA](https://ava.li) configuration                                           |
 | `jsconfig.json`      | <Badge text="Optional" /> [VSCode](https://code.visualstudio.com/docs/languages/jsconfig) configuration |
 | `pangolin.config.js` | <Badge text="Optional" /> [Pangolin](configuration.md) configuration                                    |
 | `postcss.config.js`  | [PostCSS](https://postcss.org) configuration                                                            |
