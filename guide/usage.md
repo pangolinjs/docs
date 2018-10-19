@@ -11,7 +11,6 @@ Then run tasks with `yarn task-name` or `npm run task-name`, e.g. `yarn dev` or 
 |-------------|----------------------------------------------------------------------------|
 | `lint:js`   | Lints JavaScript with [ESLint](https://eslint.org).                        |
 | `lint:css`  | Lints CSS with [stylelint](https://stylelint.io).                          |
-| `test:unit` | Runs the specified test runner, defaults to [AVA](https://ava.li).         |
 | `dev`       | Starts the development server with file watching and auto reload.          |
 | `build`     | Builds production-ready files for CMS integration. Outputs to `dist`.      |
 | `build:dev` | Generates a version of Pangolin for static file servers. Outputs to `dev`. |
