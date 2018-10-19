@@ -19,6 +19,33 @@ Stored as `*.njk`.
 
 Nunjucks files support all [default templating features](https://mozilla.github.io/nunjucks/templating.html), except `{% extends … %}` (this will be handled by Pangolin). Custom filters and tags can be defined in the [Pangolin configuration file](configuration.html#nunjucks-settings).
 
+### `include` and `import`
+
+[Include](https://mozilla.github.io/nunjucks/templating.html#include) and [import](https://mozilla.github.io/nunjucks/templating.html#import) paths will be resolved relative to the `src` directory:
+
+::: v-pre
+```django
+{% include "components/atoms/hello.njk" %}
+
+{% import "components/atoms/hello.njk" as hello %}
+{% from "components/atoms/hello.njk" import hello as world %}
+```
+:::
+
+### `static` custom tag
+
+The custom tag `static` prefixes a string with an absolute path to the final output directory. If a base path is set with an [environment variable](configuration.md#environment-variables) or a [project setting](http://localhost:8080/guide/configuration.html#project-settings) this path will be prefixed as well.
+
+::: v-pre
+```django
+<!-- Load an SVG image from `public/img` -->
+<img src="{% static 'img/logo.svg' %}" alt="Logo">
+
+<!-- This creates the following output -->
+<img src="/optional/base/path/img/logo.svg" alt="Logo">
+```
+:::
+
 
 ## Configuration <Badge text="Optional" />
 
