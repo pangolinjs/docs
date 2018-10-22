@@ -7,13 +7,17 @@ Change your current terminal directory to the project root with `cd path/to/proj
 
 Then run tasks with `yarn task-name` or `npm run task-name`, e.g. `yarn dev` or `npm run dev`.
 
-| Name        | Purpose                                                                    |
+| Task        | Purpose                                                                    |
 |-------------|----------------------------------------------------------------------------|
-| `lint:js`   | Lints JavaScript with [ESLint](https://eslint.org).                        |
-| `lint:css`  | Lints CSS with [stylelint](https://stylelint.io).                          |
 | `dev`       | Starts the development server with file watching and auto reload.          |
 | `build`     | Builds production-ready files for CMS integration. Outputs to `dist`.      |
 | `build:dev` | Generates a version of Pangolin for static file servers. Outputs to `dev`. |
+| `lint:css`  | Lints CSS with [stylelint](https://stylelint.io).                          |
+| `lint:js`   | Lints JavaScript with [ESLint](https://eslint.org).                        |
+
+::: tip Note
+Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core.md).
+:::
 
 ## JavaScript
 

@@ -13,7 +13,30 @@ These take precedence over the `pangolin.config.js` file.
 | `PANGOLIN_PORT` | Sets the dev server port.              | `devServer.port`     |
 
 
-## Project settings
+## `NODE_ENV` and `PANGOLIN_ENV`
+
+Each command sets the `process.env.NODE_ENV` and `process.env.PANGOLIN_ENV` variables to specific values. These can be used for conditional config modification, e.g.:
+
+```js
+if (process.env.PANGOLIN_ENV === 'build:dev') {
+  // This code will be executed for the `build --dev` command
+}
+```
+
+| Command       | Task        | `NODE_ENV`    | `PANGOLIN_ENV` |
+|---------------|-------------|---------------|----------------|
+| `dev`         | `dev`       | `development` | `dev`          |
+| `build`       | `build`     | `production`  | `build`        |
+| `build --dev` | `build:dev` | `production`  | `build:dev`    |
+| `lint css`    | `lint:css`  | `development` | `lint:css`     |
+| `lint js`     | `lint:js`   | `development` | `lint:js`      |
+
+::: tip Note
+Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core.md). See [tasks section in the usage guide](usage.md#tasks) for more information.
+:::
+
+
+## Project
 
 ```js
 module.exports = {
@@ -44,7 +67,7 @@ module.exports = {
 }
 ```
 
-## Dev server settings
+## Dev server
 
 ```js
 module.exports = {
@@ -64,11 +87,11 @@ module.exports = {
 }
 ```
 
-## webpack settings
+## webpack
 
-### Simple merge
+### Config merge
 
-Merges project configuration with [webpack-merge](https://github.com/survivejs/webpack-merge) into default webpack configuration.
+Uses [webpack-merge](https://github.com/survivejs/webpack-merge) to merge the project configuration into the Pangolin [webpack configuration](https://webpack.js.org/configuration/). The project config takes precedence over the Pangolin config.
 
 ```js
 module.exports = {
@@ -80,9 +103,9 @@ module.exports = {
 }
 ```
 
-### Simple mutation
+### Object mutation
 
-Mutate webpack configuration properties directly. This allows more control e.g. with conditionals based on the current environment.
+Mutate the [webpack configuration](https://webpack.js.org/configuration/) properties directly. This allows more control e.g. with conditionals based on the current environment.
 
 ```js
 const path = require('path')
@@ -113,9 +136,9 @@ module.exports = {
 }
 ```
 
-## Nunjucks settings
+## Nunjucks
 
-### Filters
+### Custom filters
 
 Add [custom Nunjucks filters](https://mozilla.github.io/nunjucks/api.html#custom-filters) to the rendering environment. The function name will be used as the filter name.
 
@@ -134,7 +157,7 @@ module.exports = {
 }
 ```
 
-### Tags
+### Custom tags
 
 Add [custom Nunjucks tags](https://mozilla.github.io/nunjucks/api.html#custom-tags) to the rendering environment. The function name will be used as the [registered extension name](https://mozilla.github.io/nunjucks/api.html#addextension).
 
