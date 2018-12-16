@@ -6,13 +6,14 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 
 ## Imprint
 
-Fynn Becker
+**Fynn Becker**
 
 [info@fynn-becker.de](mailto:info@fynn-becker.de)  
-+49 160 6737777
++49 40 302080960
 
-Brandenburger Straße 30  
-21244 Buchholz  
+**LfdA - Labor für digitale Angelegenheiten GmbH**  
+Lilienstraße 11  
+20095 Hamburg  
 Germany
 
 ## Acknowledgement
