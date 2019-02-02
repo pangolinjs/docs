@@ -1,6 +1,6 @@
 # Introduction
 
-::: warning Alpha
+::: warning Beta
 This version is work-in-progress and everything is subject to change.
 :::
 
