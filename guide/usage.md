@@ -19,19 +19,28 @@ Then run tasks with `yarn task-name` or `npm run task-name`, e.g. `yarn dev` or 
 Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core.md).
 :::
 
+
 ## JavaScript
 
 JavaScript files are bundled with [webpack](https://webpack.js.org) and transpiled with [Babel](https://babeljs.io) and the [env preset](https://babeljs.io/docs/en/babel-preset-env). To learn more about JavaScript modules head over to the MDN articles on [`import`](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Statements/import) and [`export`](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Statements/export).
 
 [ESLint](http://eslint.org) is pre-configured with the [JavaScript Standard Style](https://standardjs.com). Global [ESLint rules](http://eslint.org/docs/rules/) are set in `.eslintrc.json`. Per-file rules can be set with comments (e.g. `/* eslint no-console: "off" */`). [Exclude files from linting](http://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories) with an `.eslintignore` configuration file.
 
-The `build` task produces up to three files:
+The `build` task produces up to three files in normal mode:
 
 | File         | Purpose                                                                                 |
 |--------------|-----------------------------------------------------------------------------------------|
 | `runtime.js` | webpack [runtime and manifest data](https://webpack.js.org/concepts/manifest/#runtime). |
 | `vendors.js` | Third-party scripts from `node_modules` (only if files from npm are imported).          |
 | `main.js`    | Main application code.                                                                  |
+
+The `build --modern` mode generates three additional files:
+
+* `runtime.modern.js`
+* `vendors.modern.js`
+* `main.modern.js`
+
+These skip transpilations to ES5 in order to serve smaller bundles for modern browsers.
 
 
 ## CSS
