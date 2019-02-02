@@ -45,6 +45,7 @@ Build production files
 
 Options:
   -d, --dev   Build files for static file server
+  --modern    Build additional modern bundle
   --report    Generate report with Webpack Bundle Analyzer
   -h, --help  output usage information
 ```
