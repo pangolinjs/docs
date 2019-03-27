@@ -18,9 +18,6 @@ footer: GPL-3.0 Licensed | Copyright © Fynn Becker
 Install the CLI:
 
 ```bash
-# Yarn
-yarn global add @pangolin/cli
-
 # npm
 npm install -g @pangolin/cli
 ```

@@ -6,7 +6,7 @@ This is the [core framework package](https://github.com/pangolinjs/core) that pr
 ## CLI
 
 ::: tip Note
-The following commands are wrapped with [`package.json` scripts](usage.md#tasks) for easier execution with [`yarn run`](https://yarnpkg.com/en/docs/cli/run) or [`npm run`](https://docs.npmjs.com/cli/run-script).
+The following commands are wrapped with [`package.json` scripts](usage.md#tasks) for easier execution with [`npm run`](https://docs.npmjs.com/cli/run-script).
 :::
 
 ### Help and version
@@ -33,7 +33,8 @@ Usage: dev [options]
 Start development server
 
 Options:
-  -h, --help  output usage information
+  -o, --open [browser]  Open in default or specific browser
+  -h, --help            output usage information
 ```
 
 ### Build

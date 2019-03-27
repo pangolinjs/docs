@@ -58,8 +58,6 @@ module.exports = {
     branding: {
       // Default: rgb(204, 91, 24)
       colorTheme: '#5d675b',
-      // Default: rgb(255, 255, 255)
-      colorTitle: '#f7ef99',
       // Default: undefined
       favicon: 'favicon.ico'
     }
@@ -72,14 +70,6 @@ module.exports = {
 ```js
 module.exports = {
   devServer: {
-    // Auto-open in browser
-    // Default: false
-    open: true,
-
-    // Set the desired browser for auto-open
-    // Default: undefined
-    browser: 'firefox',
-
     // Set the desired UI port
     // Default: 8080
     port: 1337

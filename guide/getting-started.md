@@ -4,15 +4,10 @@
 ## Prerequisites
 
 * [Node.js](https://nodejs.org)
-<!-- The non-breaking space fixes a bug with VuePress rendering -->
-* &nbsp;<Badge text="Optional" /> [Yarn](https://yarnpkg.com)
 
 Install the [CLI](https://github.com/pangolinjs/cli) globally:
 
 ```bash
-# Yarn
-yarn global add @pangolin/cli
-
 # npm
 npm install -g @pangolin/cli
 ```
@@ -44,10 +39,10 @@ This creates a project in a new folder `project-name`. To create a new project i
 │   │   └── …
 │   ├── main.js
 │   └── main.scss
-├── .babelrc
 ├── .browserslistrc
 ├── .eslintrc.json
 ├── .stylelintrc.json
+├── babel.config.js
 ├── [jsconfig.json]
 ├── [pangolin.config.js]
 └── postcss.config.js
@@ -57,10 +52,10 @@ This creates a project in a new folder `project-name`. To create a new project i
 
 | File                 | Purpose                                                                                                 |
 |----------------------|---------------------------------------------------------------------------------------------------------|
-| `.babelrc`           | [Babel](https://babeljs.io) configuration                                                               |
 | `.browserslistrc`    | [Browserslist](https://github.com/browserslist/browserslist) configuration                              |
 | `.eslintrc.json`     | [ESLint](https://eslint.org) configuration                                                              |
 | `.stylelint.json`    | [stylelint](https://stylelint.io) configuration                                                         |
+| `babel.config.js`    | [Babel](https://babeljs.io) configuration                                                               |
 | `jsconfig.json`      | <Badge text="Optional" /> [VSCode](https://code.visualstudio.com/docs/languages/jsconfig) configuration |
 | `pangolin.config.js` | <Badge text="Optional" /> [Pangolin](configuration.md) configuration                                    |
 | `postcss.config.js`  | [PostCSS](https://postcss.org) configuration                                                            |
