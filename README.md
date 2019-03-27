@@ -18,7 +18,6 @@ footer: GPL-3.0 Licensed | Copyright © Fynn Becker
 Install the CLI:
 
 ```bash
-# npm
 npm install -g @pangolin/cli
 ```
 
