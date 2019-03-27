@@ -15,7 +15,7 @@
     "url": "https://github.com/pangolinjs/docs/issues",
     "email": "info@fynn-becker.de"
   },
-  "license": "GPL-3.0",
+  "license": "MPL-2.0",
   "private": true,
   "scripts": {
     "dev": "vuepress dev",

@@ -5,7 +5,7 @@
 
 Change your current terminal directory to the project root with `cd path/to/project`.
 
-Then run tasks with `yarn task-name` or `npm run task-name`, e.g. `yarn dev` or `npm run dev`.
+Then run tasks with `npm run task-name`, e.g. `npm run dev`.
 
 | Task        | Purpose                                                                    |
 |-------------|----------------------------------------------------------------------------|
