@@ -8,7 +8,6 @@
 Install the [CLI](https://github.com/pangolinjs/cli) globally:
 
 ```bash
-# npm
 npm install -g @pangolin/cli
 ```
 
