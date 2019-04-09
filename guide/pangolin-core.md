@@ -34,6 +34,8 @@ Start development server
 
 Options:
   -o, --open [browser]  Open in default or specific browser
+  --host <hostname>     Override the default localhost hostname
+  --port <port>         Override the default 8080 port
   -h, --help            output usage information
 ```
 
