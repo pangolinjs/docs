@@ -10,6 +10,7 @@ These take precedence over the `pangolin.config.js` file.
 | Name            | Purpose                                | `pangolin.config.js` |
 |-----------------|----------------------------------------|----------------------|
 | `PANGOLIN_BASE` | Sets the project base path for builds. | `project.base`       |
+| `PANGOLIN_HOST` | Sets the dev server hostname.          | `devServer.host`     |
 | `PANGOLIN_PORT` | Sets the dev server port.              | `devServer.port`     |
 
 
@@ -70,6 +71,9 @@ module.exports = {
 ```js
 module.exports = {
   devServer: {
+    // Set the desired UI host
+    // Default: 'localhost'
+    host: '0.0.0.0',
     // Set the desired UI port
     // Default: 8080
     port: 1337
