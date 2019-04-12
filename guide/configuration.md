@@ -72,8 +72,8 @@ module.exports = {
 module.exports = {
   devServer: {
     // Set the desired UI host
-    // Default: 'localhost'
-    host: '0.0.0.0',
+    // Default: '0.0.0.0'
+    host: '127.0.0.1',
     // Set the desired UI port
     // Default: 8080
     port: 1337

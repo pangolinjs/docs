@@ -34,7 +34,7 @@ Nunjucks files support all [default templating features](https://mozilla.github.
 
 ### `static` custom tag
 
-The custom tag `static` prefixes a string with an absolute path to the final output directory. If a base path is set with an [environment variable](configuration.md#environment-variables) or a [project setting](http://localhost:8080/guide/configuration.html#project-settings) this path will be prefixed as well.
+The custom tag `static` prefixes a string with an absolute path to the final output directory. If a base path is set with an [environment variable](configuration.md#environment-variables) or a [project setting](configuration.html#project-settings) this path will be prefixed as well.
 
 ::: v-pre
 ```django
