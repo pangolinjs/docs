@@ -81,6 +81,34 @@ module.exports = {
 }
 ```
 
+Additional [DevServer options](https://webpack.js.org/configuration/dev-server/) can be configured by modifying the [webpack config](#webpack) as described in the following section. A short example might look like:
+
+```js
+// Config merge
+module.exports = {
+  configure: {
+    devServer: {
+      clientLogLevel: 'info'
+    }
+  }
+}
+
+// or object mutation
+module.exports = {
+  configure (config) {
+    config.devServer.clientLogLevel = 'info'
+  }
+}
+
+// or webpack-chain
+module.exports = {
+  chain (config) {
+    config.devServer
+      .clientLogLevel('info)
+  }
+}
+```
+
 ## webpack
 
 ### Config merge
