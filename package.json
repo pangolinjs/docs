@@ -22,6 +22,6 @@
     "build": "vuepress build"
   },
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.47"
+    "vuepress": "^1.0.0-alpha.48"
   }
 }
