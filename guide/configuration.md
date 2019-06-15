@@ -76,7 +76,11 @@ module.exports = {
     host: '127.0.0.1',
     // Set the desired UI port
     // Default: 8080
-    port: 1337
+    port: 1337,
+    // Set the WebSocket path
+    // The path has to start with a '/'
+    // Default: '/socket'
+    webSocketPath: '/pangolin-ui-socket'
   }
 }
 ```
