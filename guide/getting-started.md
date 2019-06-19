@@ -4,21 +4,27 @@
 ## Prerequisites
 
 * [Node.js](https://nodejs.org)
-
-Install the [CLI](https://github.com/pangolinjs/cli) globally:
-
-```bash
-npm install -g @pangolin/cli
-```
+* Global [Pangolin CLI](https://github.com/pangolinjs/cli) <Badge text="Optional" />
+  ```bash
+  npm install -g @pangolin/cli
+  ```
 
 
 ## Create a new project
 
+The following commands create a project in a new folder called `project-name`. To create a new project in the current directory use a `.` (dot) instead of a project name.
+
+### With npx
+
+```bash
+npx -p @pangolin/cli pangolin create project-name
+```
+
+### With globally installed CLI
+
 ```bash
 pangolin create project-name
 ```
-
-This creates a project in a new folder `project-name`. To create a new project in the current directory call `pangolin create .`.
 
 
 ## Project structure
@@ -42,7 +48,6 @@ This creates a project in a new folder `project-name`. To create a new project i
 ├── .eslintrc.json
 ├── .stylelintrc.json
 ├── babel.config.js
-├── [jsconfig.json]
 ├── [pangolin.config.js]
 └── postcss.config.js
 ```
@@ -55,16 +60,15 @@ This creates a project in a new folder `project-name`. To create a new project i
 | `.eslintrc.json`     | [ESLint](https://eslint.org) configuration                                                              |
 | `.stylelint.json`    | [stylelint](https://stylelint.io) configuration                                                         |
 | `babel.config.js`    | [Babel](https://babeljs.io) configuration                                                               |
-| `jsconfig.json`      | <Badge text="Optional" /> [VSCode](https://code.visualstudio.com/docs/languages/jsconfig) configuration |
 | `pangolin.config.js` | <Badge text="Optional" /> [Pangolin](configuration.md) configuration                                    |
 | `postcss.config.js`  | [PostCSS](https://postcss.org) configuration                                                            |
 
 ### `src` folder
 
-| Folder       | Purpose                                                                                                          |
-|--------------|------------------------------------------------------------------------------------------------------------------|
-| `components` | From the smallest bit to the largest page — everything that can be abstracted into a general pattern lives here. |
-| `functions`  | <Badge text="Changeable" /> General purpose Sass or JavaScript functions.                                        |
-| `public`     | Static files that will be copied 1:1 to the output directory.                                                    |
-| `setup`      | <Badge text="Changeable" /> Base files for global setup, e.g. variables or `body` styles.                        |
-| `templates`  | Nunjucks page templates. Must contain at least a `default.njk` template.                                         |
+| Folder       | Purpose                                                                                   |
+|--------------|-------------------------------------------------------------------------------------------|
+| `components` | Everything is a component: the smallest button and the most complex page.                 |
+| `functions`  | <Badge text="Changeable" /> General purpose Sass or JavaScript functions.                 |
+| `public`     | Static files that will be copied 1:1 to the output directory.                             |
+| `setup`      | <Badge text="Changeable" /> Base files for global setup, e.g. variables or `body` styles. |
+| `templates`  | Nunjucks page templates. Must contain at least a `default.njk` template.                  |
