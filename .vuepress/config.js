@@ -24,6 +24,10 @@ module.exports = {
         link: '/guide/'
       },
       {
+        text: 'Cookbook',
+        link: '/cookbook/'
+      },
+      {
         text: 'Versions',
         items: [
           {
@@ -63,6 +67,14 @@ module.exports = {
           'templates',
           'testing',
           'pangolin-core'
+        ]
+      }],
+      '/cookbook/': [{
+        title: 'Cookbook',
+        collapsable: false,
+        children: [
+          '',
+          'vue'
         ]
       }]
     }
