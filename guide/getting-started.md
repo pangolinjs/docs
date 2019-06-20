@@ -1,6 +1,5 @@
 # Getting Started
 
-
 ## Prerequisites
 
 * [Node.js](https://nodejs.org)
@@ -9,10 +8,10 @@
   npm install -g @pangolin/cli
   ```
 
-
 ## Create a new project
 
-The following commands create a project in a new folder called `project-name`. To create a new project in the current directory use a `.` (dot) instead of a project name.
+The following commands create a project in a new folder called `project-name`.
+To create a new project in the current directory use a `.` (dot) instead of a project name.
 
 ### With npx
 
@@ -26,10 +25,9 @@ npx -p @pangolin/cli pangolin create project-name
 pangolin create project-name
 ```
 
-
 ## Project structure
 
-```
+```txt
 .
 ├── src
 │   ├── components
