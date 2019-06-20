@@ -2,8 +2,9 @@
 
 Located at `src/templates`.
 
-Templates are used to render the basic HTML structure around components. A `default.njk` template is required as a fallback for all components that don’t explicitly set a template. Other templates can be named freely.
-
+Templates are used to render the basic HTML structure around components.
+A `default.njk` template is required as a fallback for all components that don’t
+explicitly set a template. Other templates can be named freely.
 
 ## Simple example
 
@@ -24,8 +25,8 @@ The following is an example for a “minimal viable template”:
 ```
 :::
 
-`{% block pangolin_head %}{% endblock %}` and `{% block pangolin_body %}{% endblock %}` are necessary injection points for Pangolin. Everything else can be changed.
-
+`{% block pangolin_head %}{% endblock %}` and `{% block pangolin_body %}{% endblock %}`
+are necessary injection points for Pangolin. Everything else can be changed.
 
 ## Advanced example
 
@@ -46,11 +47,11 @@ A slightly more advanced template may include more metadata or additional markup
     {% block pangolin_head %}{% endblock %}
   </head>
   <body>
-  
+
     <div class="container">
       {% block pangolin_body %}{% endblock %}
     </div>
-    
+
   </body>
 </html>
 ```
