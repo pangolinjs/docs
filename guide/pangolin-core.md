@@ -1,17 +1,18 @@
 # Pangolin Core
 
-This is the [core framework package](https://github.com/pangolinjs/core) that provides a dev server with a nice UI and builds the production files.
-
+This is the [core framework package](https://github.com/pangolinjs/core) that
+provides a dev server with a nice UI and builds the production files.
 
 ## CLI
 
 ::: tip Note
-The following commands are wrapped with [`package.json` scripts](usage.md#tasks) for easier execution with [`npm run`](https://docs.npmjs.com/cli/run-script).
+The following commands are wrapped with [`package.json` scripts](usage.md#tasks)
+for easier execution with [`npm run`](https://docs.npmjs.com/cli/run-script).
 :::
 
 ### Help and version
 
-```
+```txt
 Usage: pangolin-core <command> [options]
 
 Options:
@@ -27,7 +28,7 @@ Commands:
 
 ### Dev
 
-```
+```txt
 Usage: dev [options]
 
 Start development server
@@ -41,7 +42,7 @@ Options:
 
 ### Build
 
-```
+```txt
 Usage: build [options]
 
 Build production files
@@ -55,7 +56,7 @@ Options:
 
 ### Linting
 
-```
+```txt
 Usage: lint css|js [options]
 
 Lint CSS or JavaScript files
@@ -66,7 +67,7 @@ Options:
 
 ### Inspect
 
-```
+```txt
 Usage: inspect dev|build [options]
 
 Generate and output webpack config
