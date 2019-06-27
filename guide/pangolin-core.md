@@ -34,10 +34,10 @@ Usage: dev [options]
 Start development server
 
 Options:
-  -o, --open [browser]  Open in default or specific browser
-  --host <hostname>     Override the default 0.0.0.0 hostname
-  --port <port>         Override the default 8080 port
-  -h, --help            output usage information
+  --open [browser]   Open in default or specific browser
+  --host <hostname>  Override the default 0.0.0.0 hostname
+  --port <port>      Override the default 8080 port
+  -h, --help         output usage information
 ```
 
 ### Build
@@ -48,7 +48,7 @@ Usage: build [options]
 Build production files
 
 Options:
-  -d, --dev   Build files for static file server
+  --dev       Build files for static file server
   --modern    Build additional modern bundle
   --report    Generate report with Webpack Bundle Analyzer
   -h, --help  output usage information
@@ -73,7 +73,7 @@ Usage: inspect dev|build [options]
 Generate and output webpack config
 
 Options:
-  -d, --dev      Switch to dev mode for build task
-  -v, --verbose  Show more information
-  -h, --help     output usage information
+  --dev       Switch to dev mode for build task
+  --compact   Less line breaks in output
+  -h, --help  output usage information
 ```
