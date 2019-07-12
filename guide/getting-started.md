@@ -43,23 +43,23 @@ pangolin create project-name
 │   ├── main.js
 │   └── main.scss
 ├── .browserslistrc
-├── .eslintrc.json
-├── .stylelintrc.json
+├── .eslintrc.js
 ├── babel.config.js
 ├── [pangolin.config.js]
-└── postcss.config.js
+├── postcss.config.js
+└── stylelint.config.js
 ```
 
 ### Config files
 
-| File                 | Purpose                                                                                                 |
-|----------------------|---------------------------------------------------------------------------------------------------------|
-| `.browserslistrc`    | [Browserslist](https://github.com/browserslist/browserslist) configuration                              |
-| `.eslintrc.json`     | [ESLint](https://eslint.org) configuration                                                              |
-| `.stylelint.json`    | [stylelint](https://stylelint.io) configuration                                                         |
-| `babel.config.js`    | [Babel](https://babeljs.io) configuration                                                               |
-| `pangolin.config.js` | <Badge text="Optional" /> [Pangolin](configuration.md) configuration                                    |
-| `postcss.config.js`  | [PostCSS](https://postcss.org) configuration                                                            |
+| File                  | Purpose                                                                                                 |
+|-----------------------|---------------------------------------------------------------------------------------------------------|
+| `.browserslistrc`     | [Browserslist](https://github.com/browserslist/browserslist) configuration                              |
+| `.eslintrc.js`        | [ESLint](https://eslint.org) configuration                                                              |
+| `babel.config.js`     | [Babel](https://babeljs.io) configuration                                                               |
+| `pangolin.config.js`  | <Badge text="Optional" /> [Pangolin](configuration.md) configuration                                    |
+| `postcss.config.js`   | [PostCSS](https://postcss.org) configuration                                                            |
+| `stylelint.config.js` | [stylelint](https://stylelint.io) configuration                                                         |
 
 ### `src` folder
 
