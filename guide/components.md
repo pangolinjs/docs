@@ -71,14 +71,3 @@ Set a custom configuration for this component. The following options are availab
   "template": "page.njk"
 }
 ```
-
-## Documentation <Badge text="Optional" />
-
-Stored as `*.md`.
-
-Add a markdown documentation for this component. The rendered output will be
-displayed below the component view.
-
-The markdown converter uses [GitHub Flavored Markdown](https://github.github.com/gfm/)
-and converts single line breaks to `<br>`s. [GFM’s tables](https://github.github.com/gfm/#tables-extension-)
-are supported aswell. Code blocks are highlighted with Prism – take a look at [all supported languages](https://prismjs.com/#languages-list).
