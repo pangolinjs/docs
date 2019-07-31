@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "lint": "markdownlint **/*.md"
+    "lint": "markdownlint . -i node_modules"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.17.0",

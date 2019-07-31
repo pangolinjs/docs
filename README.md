@@ -10,10 +10,10 @@ features:
   details: Sass is a CSS preprocessor supporting variables, nesting and mixins – among many other features.
 - title: JavaScript
   details: JavaScript files are bundled together with webpack and transpiled with Babel and the env preset.
-footer: GPL-3.0 Licensed | Copyright © Fynn Becker
+footer: Licensed under MPL-2.0 and MIT | Copyright © Fynn Becker
 ---
 
-<!-- markdownlint-disable first-line-heading/first-line-h1 -->
+<!-- markdownlint-disable MD041 -->
 ## Quick start
 
 Install the CLI…
