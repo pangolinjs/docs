@@ -120,8 +120,8 @@ module.exports = {
 ### Config merge
 
 Uses [webpack-merge](https://github.com/survivejs/webpack-merge) to merge the project configuration
-into the Pangolin [webpack configuration](https://webpack.js.org/configuration/).
-The project config takes precedence over the Pangolin config.
+into the [Pangolin.js webpack configuration](https://webpack.js.org/configuration/).
+The project config takes precedence over the Pangolin.js config.
 
 ```js
 module.exports = {

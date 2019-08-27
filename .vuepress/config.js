@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Pangolin Pattern Library',
+  title: 'Pangolin.js Pattern Library',
   description: 'Framework for componentized front end development with Nunjucks, Sass, and JavaScript',
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
@@ -8,8 +8,8 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ff721f' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Pangolin' }],
-    ['meta', { name: 'application-name', content: 'Pangolin' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Pangolin.js' }],
+    ['meta', { name: 'application-name', content: 'Pangolin.js' }],
     ['meta', { name: 'msapplication-TileColor', content: '#ff721f' }],
     ['meta', { name: 'theme-color', content: '#ff721f' }]
   ],

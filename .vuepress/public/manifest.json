@@ -1,6 +1,6 @@
 {
-    "name": "Pangolin Pattern Library",
-    "short_name": "Pangolin",
+    "name": "Pangolin.js Pattern Library",
+    "short_name": "Pangolin.js",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

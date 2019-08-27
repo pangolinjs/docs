@@ -1,6 +1,6 @@
 # Vue.js
 
-Pangolin uses [webpack](https://webpack.js.org) under the hood and generates its configuration
+Pangolin.js uses [webpack](https://webpack.js.org) under the hood and generates its configuration
 with [webpack-chain](https://github.com/neutrinojs/webpack-chain). This allows to easily tap into
 the loaders and plugins and extend the pipeline.
 
@@ -70,4 +70,4 @@ module.exports = {
 ## Usage
 
 Now you are ready to import [single file components](https://vuejs.org/v2/guide/single-file-components.html)
-in Pangolin.
+in Pangolin.js.

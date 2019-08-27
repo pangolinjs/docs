@@ -6,13 +6,13 @@ Change your current terminal directory to the project root with `cd path/to/proj
 
 Then run tasks with `npm run task-name`, e.g. `npm run dev`.
 
-| Task        | Purpose                                                                    |
-|-------------|----------------------------------------------------------------------------|
-| `dev`       | Starts the development server with file watching and auto reload.          |
-| `build`     | Builds production-ready files for CMS integration. Outputs to `dist`.      |
-| `build:dev` | Generates a version of Pangolin for static file servers. Outputs to `dev`. |
-| `lint:css`  | Lints CSS with [stylelint](https://stylelint.io).                          |
-| `lint:js`   | Lints JavaScript with [ESLint](https://eslint.org).                        |
+| Task        | Purpose                                                                       |
+|-------------|-------------------------------------------------------------------------------|
+| `dev`       | Starts the development server with file watching and auto reload.             |
+| `build`     | Builds production-ready files for CMS integration. Outputs to `dist`.         |
+| `build:dev` | Generates a version of Pangolin.js for static file servers. Outputs to `dev`. |
+| `lint:css`  | Lints CSS with [stylelint](https://stylelint.io).                             |
+| `lint:js`   | Lints JavaScript with [ESLint](https://eslint.org).                           |
 
 ::: tip Note
 Tasks are pre-defined `package.json` scripts for the corresponding
@@ -71,7 +71,7 @@ The `build` task produces up to two files:
 ## HTML
 
 [Nunjucks](https://mozilla.github.io/nunjucks/) is an HTML templating engine
-based on JavaScript. Pangolin creates static HTML from Nunjucks files.
+based on JavaScript. Pangolin.js creates static HTML from Nunjucks files.
 Take a look at the [templating docs](https://mozilla.github.io/nunjucks/templating.html)
 for further information on Nunjucks.
 

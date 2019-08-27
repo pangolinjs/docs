@@ -1,7 +1,7 @@
 {
   "name": "@pangolin/docs",
   "version": "1.0.0",
-  "description": "Documentation for Pangolin projects",
+  "description": "Documentation for Pangolin.js projects",
   "author": {
     "name": "Fynn Becker",
     "email": "info@fynn-becker.de"
