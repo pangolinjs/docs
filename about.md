@@ -1,6 +1,6 @@
 # About
 
-Pangolin is a Framework for componentized front end development.
+Pangolin.js is a Framework for componentized front end development.
 It uses _Nunjucks_ for dynamic templates, _Sass_ as a powerful CSS pre-processor,
 and _Babel_ to transpile modern _JavaScript_ into something parseable by every reasonable browser.
 
@@ -22,4 +22,4 @@ Germany
 
 These docs are powered by [VuePress](https://vuepress.vuejs.org) and hosted on [Netlify](https://www.netlify.com).
 
-The Pangolin CLI is heavily inspired by [Vue CLI](https://cli.vuejs.org).
+The Pangolin.js CLI is inspired by [Vue CLI](https://cli.vuejs.org).

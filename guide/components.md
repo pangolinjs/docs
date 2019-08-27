@@ -4,7 +4,7 @@ Located at `src/components`.
 
 A component is represented by at least one `*.njk` file that holds the Nunjucks/HTML code.
 The contents of this file replace the `{% block pangolin_body %}{% endblock %}` of [templates](templates.md).
-Pangolin respects sub-folders and automatically creates a navigation tree for components.
+Pangolin.js respects sub-folders and automatically creates a navigation tree for components.
 
 Additional information can be provided with a `*.json` and a `*.md` file.
 All files have to share the same name, e.g. `button.njk`, `button.json`, and `button.md`.
@@ -20,8 +20,8 @@ All files have to share the same name, e.g. `button.njk`, `button.json`, and `bu
 Stored as `*.njk`.
 
 Nunjucks files support all [default templating features](https://mozilla.github.io/nunjucks/templating.html),
-except `{% extends … %}` (this will be handled by Pangolin). Custom filters and
-tags can be defined in the [Pangolin configuration file](configuration.html#nunjucks-settings).
+except `{% extends … %}` (this will be handled by Pangolin.js). Custom filters and
+tags can be defined in the [Pangolin.js configuration file](configuration.html#nunjucks-settings).
 
 ### `include` and `import`
 

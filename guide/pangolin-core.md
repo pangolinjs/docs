@@ -1,4 +1,4 @@
-# Pangolin Core
+# Pangolin.js Core
 
 This is the [core framework package](https://github.com/pangolinjs/core) that
 provides a dev server with a nice UI and builds the production files.
