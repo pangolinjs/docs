@@ -58,7 +58,7 @@ module.exports = {
     branding: {
       // Default: #ff721f
       // Allowed formats: 3- or 6-digit hex colors (e.g. #639 or #1e88e5)
-      theme: '#5d675b',
+      color: '#5d675b',
       // Default: undefined
       favicon: 'favicon.ico'
     }
