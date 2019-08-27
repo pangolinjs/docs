@@ -23,7 +23,7 @@
     "lint": "markdownlint . -i node_modules"
   },
   "devDependencies": {
-    "markdownlint-cli": "^0.17.0",
+    "markdownlint-cli": "^0.18.0",
     "vuepress": "^1.0.3"
   }
 }
