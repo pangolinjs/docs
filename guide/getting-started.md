@@ -3,7 +3,7 @@
 ## Prerequisites
 
 * [Node.js](https://nodejs.org)
-* Global [Pangolin CLI](https://github.com/pangolinjs/cli) <Badge text="Optional" />
+* Global [Pangolin.js CLI](https://github.com/pangolinjs/cli) <Badge text="Optional" />
   ```bash
   npm install -g @pangolin/cli
   ```

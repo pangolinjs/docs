@@ -26,7 +26,7 @@ The following is an example for a “minimal viable template”:
 :::
 
 `{% block pangolin_head %}{% endblock %}` and `{% block pangolin_body %}{% endblock %}`
-are necessary injection points for Pangolin. Everything else can be changed.
+are necessary injection points for Pangolin.js. Everything else can be changed.
 
 ## Advanced example
 
