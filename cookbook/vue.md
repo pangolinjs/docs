@@ -61,7 +61,7 @@ Extend your ESLint configuration with the [ESLint Vue plugin](https://eslint.vue
 module.exports = {
   root: true,
   extends: [
-    '@pangolin/eslint-config',
+    '@pangolinjs',
     'plugin:vue/recommended'
   ]
 }

@@ -19,7 +19,7 @@ footer: Licensed under MPL-2.0 and MIT | Copyright © Fynn Becker
 Install the CLI…
 
 ```bash
-npm install -g @pangolin/cli
+npm install -g @pangolinjs/cli
 ```
 
 …and create a new project!

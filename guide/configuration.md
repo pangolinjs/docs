@@ -42,7 +42,7 @@ See [tasks section in the usage guide](usage.md#tasks) for more information.
 module.exports = {
   project: {
     // Set the project name which will be used throughout the UI
-    // Default: Pangolin
+    // Default: Pangolin.js
     name: 'Project name',
 
     // Set a different base path if the dev build
