@@ -1,7 +1,7 @@
 # Introduction
 
-::: warning Beta
-This version is work-in-progress and everything is subject to change.
+::: warning Release Candidate
+Pangolin.js v5 is currently a release candidate. The API is mostly stable.
 :::
 
 Pangolin.js is a framework for componentized frontend development with Nunjucks, Sass, and JavaScript.
