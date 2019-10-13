@@ -18,7 +18,7 @@ features:
 Install the CLI…
 
 ```bash
-npm install -g @pangolinjs/cli
+npm install --global @pangolinjs/cli
 ```
 
 …and create a new project!
