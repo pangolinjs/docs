@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "markdownlint-cli": "^0.18.0",
-    "vuepress": "^1.1.0"
+    "vuepress": "^1.2.0"
   }
 }
