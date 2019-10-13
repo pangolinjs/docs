@@ -5,7 +5,7 @@
 * [Node.js](https://nodejs.org)
 * Global [Pangolin.js CLI](https://github.com/pangolinjs/cli) <Badge text="Optional" />
   ```bash
-  npm install -g @pangolinjs/cli
+  npm install --global @pangolinjs/cli
   ```
 
 ## Create a new project
@@ -16,7 +16,7 @@ To create a new project in the current directory use a `.` (dot) instead of a pr
 ### With npx
 
 ```bash
-npx -p @pangolinjs/cli pangolin create project-name
+npx --package @pangolinjs/cli pangolin create project-name
 ```
 
 ### With globally installed CLI
