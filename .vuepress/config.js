@@ -28,6 +28,14 @@ module.exports = {
         link: '/cookbook/'
       },
       {
+        text: 'About',
+        link: '/about'
+      },
+      {
+        text: 'Changelog',
+        link: 'https://github.com/pangolinjs/core/blob/master/CHANGELOG.md'
+      },
+      {
         text: 'Versions',
         items: [
           {
@@ -47,10 +55,6 @@ module.exports = {
             link: 'https://v2.pangolinjs.org'
           }
         ]
-      },
-      {
-        text: 'About',
-        link: '/about'
       }
     ],
     sidebarDepth: 2,
