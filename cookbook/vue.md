@@ -13,13 +13,13 @@ the loaders and plugins and extend the pipeline.
 npm install vue
 
 # Install vue-loader and vue-template-compiler as development dependencies
-npm install -D vue-loader vue-template-compiler
+npm install --save-dev vue-loader vue-template-compiler
 ```
 
 ### Install ESLint plugin <Badge text="Optional" />
 
 ```bash
-npm install -D eslint-plugin-vue
+npm install --save-dev eslint-plugin-vue
 ```
 
 ## Configuration
@@ -53,9 +53,10 @@ module.exports = {
 }
 ```
 
-### .eslintrc.js
+### .eslintrc.js <Badge text="Optional" />
 
-Extend your ESLint configuration with the [ESLint Vue plugin](https://eslint.vuejs.org):
+If you chose to install the [ESLint plugin for Vue](https://eslint.vuejs.org),
+you can extend your ESLint configuration with the recommended rules:
 
 ```js
 module.exports = {
