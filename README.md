@@ -10,7 +10,6 @@ features:
   details: Sass is a CSS preprocessor supporting variables, nesting and mixins – among many other features.
 - title: JavaScript
   details: JavaScript files are bundled together with webpack and transpiled with Babel and the env preset.
-footer: Licensed under MPL-2.0 and MIT | Copyright © Fynn Becker
 ---
 
 <!-- markdownlint-disable MD041 -->
@@ -27,3 +26,6 @@ npm install -g @pangolinjs/cli
 ```bash
 pangolin create project-name
 ```
+
+<!-- markdownlint-disable MD033 -->
+<Footer />
