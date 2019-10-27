@@ -13,7 +13,7 @@ the loaders and plugins and extend the pipeline.
 npm install vue
 
 # Install vue-loader and vue-template-compiler as development dependencies
-npm install --save-dev vue-loader vue-template-compiler
+npm install --save-dev vue-loader vue-template-compiler webpack
 ```
 
 ### Install ESLint plugin <Badge text="Optional" />
