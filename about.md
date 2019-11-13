@@ -1,6 +1,6 @@
 # About
 
-Pangolin.js is a Framework for componentized front end development.
+Pangolin.js is a Framework for design system development.
 It uses _Nunjucks_ for dynamic templates, _Sass_ as a powerful CSS pre-processor,
 and _Babel_ to transpile modern _JavaScript_ into something parseable by every reasonable browser.
 
