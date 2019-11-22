@@ -1,0 +1,8 @@
+[build]
+  environment = { NODE_VERSION = "13" }
+  publish = ".vuepress/dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "https://pangolin.netlify.com/*"
+  to = "https://pangolinjs.org/:splat"
