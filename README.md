@@ -5,7 +5,7 @@ actionText: Get Started →
 actionLink: /guide/getting-started.md
 features:
 - title: Nunjucks
-  details: Nunjucks is an HTML templating engine based on JavaScript. The styleguide creates static HTML from Nunjucks files.
+  details: Nunjucks is an HTML templating engine based on JavaScript. Pangolin.js creates static HTML from Nunjucks files.
 - title: Sass
   details: Sass is a CSS preprocessor supporting variables, nesting and mixins – among many other features.
 - title: JavaScript

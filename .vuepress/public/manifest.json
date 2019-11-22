@@ -1,5 +1,5 @@
 {
-    "name": "Pangolin.js Pattern Library",
+    "name": "Pangolin.js Design System Framwork",
     "short_name": "Pangolin.js",
     "icons": [
         {
@@ -15,6 +15,5 @@
     ],
     "theme_color": "#ff721f",
     "background_color": "#ff721f",
-    "start_url": "https://pangolinjs.org",
-    "display": "standalone"
+    "start_url": "https://pangolinjs.org"
 }
