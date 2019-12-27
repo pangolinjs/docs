@@ -20,9 +20,11 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "lint": "markdownlint . -i node_modules"
+    "lint:markdown": "markdownlint . -i node_modules",
+    "lint:language": "alex *.md **/*.md"
   },
   "devDependencies": {
+    "alex": "^8.1.0",
     "markdownlint-cli": "^0.20.0",
     "vuepress": "^1.2.0"
   }
