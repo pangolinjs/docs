@@ -1,7 +1,7 @@
 # Vue.js
 
 Pangolin.js uses [webpack](https://webpack.js.org) under the hood and generates its configuration
-with [webpack-chain](https://github.com/neutrinojs/webpack-chain). This allows to easily tap into
+with [webpack-chain](https://github.com/neutrinojs/webpack-chain). This allows to tap into
 the loaders and plugins and extend the pipeline.
 
 ## Installation
