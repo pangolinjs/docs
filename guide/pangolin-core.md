@@ -6,8 +6,8 @@ provides a dev server with a nice UI and builds the production files.
 ## CLI
 
 ::: tip Note
-The following commands are wrapped with [`package.json` scripts](usage.md#tasks)
-for easier execution with [`npm run`](https://docs.npmjs.com/cli/run-script).
+The following commands are wrapped in [`package.json` scripts](usage.md#tasks).  
+They can be started with [`npm run`](https://docs.npmjs.com/cli/run-script).
 :::
 
 ### Help and version
