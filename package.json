@@ -4,7 +4,7 @@
   "description": "Documentation for Pangolin.js projects",
   "author": {
     "name": "Fynn Becker",
-    "email": "info@fynn-becker.de"
+    "email": "post@fynn.be"
   },
   "homepage": "https://pangolinjs.org",
   "repository": {
@@ -13,7 +13,7 @@
   },
   "bugs": {
     "url": "https://github.com/pangolinjs/docs/issues",
-    "email": "info@fynn-becker.de"
+    "email": "post@fynn.be"
   },
   "license": "MPL-2.0",
   "private": true,
