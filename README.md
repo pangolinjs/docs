@@ -15,16 +15,10 @@ features:
 <!-- markdownlint-disable MD041 -->
 ## Quick start
 
-Install the CLI…
+Create a new project with `npx` and the Pangolin.js CLI:
 
 ```bash
-npm install --global @pangolinjs/cli
-```
-
-…and create a new project!
-
-```bash
-pangolin create project-name
+npx @pangolinjs/cli create project-name
 ```
 
 <!-- markdownlint-disable MD033 -->

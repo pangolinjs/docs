@@ -2,26 +2,25 @@
 
 ## Prerequisites
 
-* [Node.js](https://nodejs.org)
-* Global [Pangolin.js CLI](https://github.com/pangolinjs/cli) <Badge text="Optional" />
-  ```bash
-  npm install --global @pangolinjs/cli
-  ```
+* [Node.js v12.10 or higher](https://nodejs.org)
 
 ## Create a new project
 
 The following commands create a project in a new folder called `project-name`.
 To create a new project in the current directory use a `.` (dot) instead of a project name.
 
-### With npx
+Choose one of the following methods:
+
+### CLI with [npx](https://github.com/npm/npx)
 
 ```bash
-npx --package @pangolinjs/cli pangolin create project-name
+npx @pangolinjs/cli create project-name
 ```
 
-### With globally installed CLI
+### Globally installed CLI
 
 ```bash
+npm install --global @pangolinjs/cli
 pangolin create project-name
 ```
 
