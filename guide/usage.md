@@ -27,15 +27,13 @@ JavaScript files are bundled with [webpack](https://webpack.js.org) and transpil
 
 The `build` task produces up to three files in normal mode:
 
-| File         | Purpose                                                                                 |
-|--------------|-----------------------------------------------------------------------------------------|
-| `runtime.js` | webpack [runtime and manifest data](https://webpack.js.org/concepts/manifest/#runtime). |
-| `vendors.js` | Third-party scripts from `node_modules` (only if files from npm are imported).          |
-| `main.js`    | Main application code.                                                                  |
+| File         | Purpose                                                                        |
+|--------------|--------------------------------------------------------------------------------|
+| `vendors.js` | Third-party scripts from `node_modules` (only if files from npm are imported). |
+| `main.js`    | Main application code.                                                         |
 
 The `build --modern` mode generates three additional files:
 
-* `runtime.modern.js`
 * `vendors.modern.js`
 * `main.modern.js`
 
