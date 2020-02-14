@@ -115,6 +115,23 @@ module.exports = {
 }
 ```
 
+## Transpile dependencies
+
+The project’s source code is transpiled with [Babel](https://babeljs.io), but `node_modules` are excluded. Dependencies can be transpiled by including them explicitly. The config takes an array of strings or regexes. A string will be automatically prepended with `node_modules`, whereas a regex wont make any assumptions about the dependency location.
+
+:::warning
+Please be careful with dependency transpilation. [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) in combination with [core-js](https://github.com/zloirock/core-js) may lead to bloated bundles. Use `npm run build -- --report` to generate a bundle report with [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) that visualizes all imported files.
+:::
+
+```js
+module.exports = {
+  transpileDependencies: [
+    'ky',
+    /node_modules\/lodash\./
+  ]
+}
+```
+
 ## webpack
 
 ### Config merge
