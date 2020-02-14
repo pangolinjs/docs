@@ -1,8 +1,6 @@
 # Vue.js
 
-Pangolin.js uses [webpack](https://webpack.js.org) under the hood and generates its configuration
-with [webpack-chain](https://github.com/neutrinojs/webpack-chain). This allows to tap into
-the loaders and plugins and extend the pipeline.
+Pangolin.js uses [webpack](https://webpack.js.org) under the hood and generates its configuration with [webpack-chain](https://github.com/neutrinojs/webpack-chain). This allows to tap into the loaders and plugins and extend the pipeline.
 
 ## Installation
 
@@ -55,8 +53,7 @@ module.exports = {
 
 ### .eslintrc.js <Badge text="Optional" />
 
-If you chose to install the [ESLint plugin for Vue](https://eslint.vuejs.org),
-you can extend your ESLint configuration with the recommended rules:
+If you chose to install the [ESLint plugin for Vue](https://eslint.vuejs.org), you can extend your ESLint configuration with the recommended rules:
 
 ```js
 module.exports = {
@@ -70,5 +67,4 @@ module.exports = {
 
 ## Usage
 
-Now you are ready to import [single file components](https://vuejs.org/v2/guide/single-file-components.html)
-in Pangolin.js.
+Now you are ready to import [single file components](https://vuejs.org/v2/guide/single-file-components.html) in Pangolin.js.

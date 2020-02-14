@@ -6,8 +6,7 @@
 
 ## Create a new project
 
-The following commands create a project in a new folder called `project-name`.
-To create a new project in the current directory use a `.` (dot) instead of a project name.
+The following commands create a project in a new folder called `project-name`. To create a new project in the current directory use a `.` (dot) instead of a project name.
 
 Choose one of the following methods:
 
@@ -51,14 +50,14 @@ pangolin create project-name
 
 ### Config files
 
-| File                  | Purpose                                                                                                 |
-|-----------------------|---------------------------------------------------------------------------------------------------------|
-| `.browserslistrc`     | [Browserslist](https://github.com/browserslist/browserslist) configuration                              |
-| `.eslintrc.js`        | [ESLint](https://eslint.org) configuration                                                              |
-| `babel.config.js`     | [Babel](https://babeljs.io) configuration                                                               |
-| `pangolin.config.js`  | <Badge text="Optional" /> [Pangolin](configuration.md) configuration                                    |
-| `postcss.config.js`   | [PostCSS](https://postcss.org) configuration                                                            |
-| `stylelint.config.js` | [stylelint](https://stylelint.io) configuration                                                         |
+| File                  | Purpose                                                                    |
+|-----------------------|----------------------------------------------------------------------------|
+| `.browserslistrc`     | [Browserslist](https://github.com/browserslist/browserslist) configuration |
+| `.eslintrc.js`        | [ESLint](https://eslint.org) configuration                                 |
+| `babel.config.js`     | [Babel](https://babeljs.io) configuration                                  |
+| `pangolin.config.js`  | <Badge text="Optional" /> [Pangolin](configuration.md) configuration       |
+| `postcss.config.js`   | [PostCSS](https://postcss.org) configuration                               |
+| `stylelint.config.js` | [stylelint](https://stylelint.io) configuration                            |
 
 ### `src` folder
 

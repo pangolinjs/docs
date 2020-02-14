@@ -14,8 +14,7 @@ These take precedence over the `pangolin.config.js` file.
 
 ## `NODE_ENV` and `PANGOLIN_ENV`
 
-Each command sets the `process.env.NODE_ENV` and `process.env.PANGOLIN_ENV` variables to specific
-values. These can be used for conditional config modification, e.g.:
+Each command sets the `process.env.NODE_ENV` and `process.env.PANGOLIN_ENV` variables to specific values. These can be used for conditional config modification, e.g.:
 
 ```js
 if (process.env.PANGOLIN_ENV === 'build:dev') {
@@ -32,8 +31,7 @@ if (process.env.PANGOLIN_ENV === 'build:dev') {
 | `lint js`     | `lint:js`   | `development` | `lint:js`      |
 
 ::: tip Note
-Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core.md).
-See [tasks section in the usage guide](usage.md#tasks) for more information.
+Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core.md). See [tasks section in the usage guide](usage.md#tasks) for more information.
 :::
 
 ## Project
@@ -85,9 +83,7 @@ module.exports = {
 }
 ```
 
-Additional [DevServer options](https://webpack.js.org/configuration/dev-server/)
-can be configured by modifying the [webpack config](#webpack) as described in the following section.
-A short example might look like:
+Additional [DevServer options](https://webpack.js.org/configuration/dev-server/) can be configured by modifying the [webpack config](#webpack) as described in the following section. A short example might look like:
 
 ```js
 // Config merge
@@ -136,9 +132,7 @@ module.exports = {
 
 ### Config merge
 
-Uses [webpack-merge](https://github.com/survivejs/webpack-merge) to merge the project configuration
-into the [Pangolin.js webpack configuration](https://webpack.js.org/configuration/).
-The project config takes precedence over the Pangolin.js config.
+Uses [webpack-merge](https://github.com/survivejs/webpack-merge) to merge the project configuration into the [Pangolin.js webpack configuration](https://webpack.js.org/configuration/). The project config takes precedence over the Pangolin.js config.
 
 ```js
 module.exports = {
@@ -152,8 +146,7 @@ module.exports = {
 
 ### Object mutation
 
-Mutate the [webpack configuration](https://webpack.js.org/configuration/) properties directly.
-This allows more control e.g. with conditionals based on the current environment.
+Mutate the [webpack configuration](https://webpack.js.org/configuration/) properties directly. This allows more control e.g. with conditionals based on the current environment.
 
 ```js
 const path = require('path')
@@ -169,8 +162,7 @@ module.exports = {
 
 ### Advanced
 
-[webpack-chain](https://github.com/mozilla-neutrino/webpack-chain) enables full
-control and expansion of all aspects of the webpack configuration.
+[webpack-chain](https://github.com/mozilla-neutrino/webpack-chain) enables full control and expansion of all aspects of the webpack configuration.
 
 ```js
 module.exports = {
@@ -189,8 +181,7 @@ module.exports = {
 
 ### Custom filters
 
-Add [custom Nunjucks filters](https://mozilla.github.io/nunjucks/api.html#custom-filters)
-to the rendering environment. The function name will be used as the filter name.
+Add [custom Nunjucks filters](https://mozilla.github.io/nunjucks/api.html#custom-filters) to the rendering environment. The function name will be used as the filter name.
 
 ```js
 module.exports = {
@@ -209,8 +200,7 @@ module.exports = {
 
 ### Custom tags
 
-Add [custom Nunjucks tags](https://mozilla.github.io/nunjucks/api.html#custom-tags)
-to the rendering environment. The function name will be used as the [registered extension name](https://mozilla.github.io/nunjucks/api.html#addextension).
+Add [custom Nunjucks tags](https://mozilla.github.io/nunjucks/api.html#custom-tags) to the rendering environment. The function name will be used as the [registered extension name](https://mozilla.github.io/nunjucks/api.html#addextension).
 
 ```js
 module.exports = {
