@@ -1,7 +1,6 @@
 # Testing
 
-Pangolin.js doesn't prescribe the testing framework nor the test spec names.
-Take a look at some of these popular test runners and decide for yourself:
+Pangolin.js doesn't prescribe the testing framework nor the test spec names. Take a look at some of these popular test runners and decide for yourself:
 
 * [AVA](https://github.com/avajs/ava)
 * [Jasmine](https://jasmine.github.io)

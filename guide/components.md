@@ -2,12 +2,9 @@
 
 Located at `src/components`.
 
-A component is represented by at least one `*.njk` file that holds the Nunjucks/HTML code.
-The contents of this file replace the `{% block pangolin_body %}{% endblock %}` of [templates](templates.md).
-Pangolin.js respects sub-folders and automatically creates a navigation tree for components.
+A component is represented by at least one `*.njk` file that holds the Nunjucks/HTML code. The contents of this file replace the `{% block pangolin_body %}{% endblock %}` of [templates](templates.md). Pangolin.js respects sub-folders and automatically creates a navigation tree for components.
 
-Additional information can be provided with a `*.json` and a `*.md` file.
-All files have to share the same name, e.g. `button.njk`, `button.json`, and `button.md`.
+Additional information can be provided with a `*.json` and a `*.md` file. All files have to share the same name, e.g. `button.njk`, `button.json`, and `button.md`.
 
 | File     | Purpose                                                           |
 |----------|-------------------------------------------------------------------|
@@ -19,15 +16,11 @@ All files have to share the same name, e.g. `button.njk`, `button.json`, and `bu
 
 Stored as `*.njk`.
 
-Nunjucks files support all [default templating features](https://mozilla.github.io/nunjucks/templating.html),
-except `{% extends … %}` (this will be handled by Pangolin.js). Custom filters and
-tags can be defined in the [Pangolin.js configuration file](configuration.html#nunjucks-settings).
+Nunjucks files support all [default templating features](https://mozilla.github.io/nunjucks/templating.html), except `{% extends … %}` (this will be handled by Pangolin.js). Custom filters and tags can be defined in the [Pangolin.js configuration file](configuration.html#nunjucks-settings).
 
 ### `include` and `import`
 
-[Include](https://mozilla.github.io/nunjucks/templating.html#include) and
-[import](https://mozilla.github.io/nunjucks/templating.html#import) paths
-will be resolved relative to the `src` directory:
+[Include](https://mozilla.github.io/nunjucks/templating.html#include) and [import](https://mozilla.github.io/nunjucks/templating.html#import) paths will be resolved relative to the `src` directory:
 
 ::: v-pre
 ```django
@@ -40,9 +33,7 @@ will be resolved relative to the `src` directory:
 
 ### `static` custom tag
 
-The custom tag `static` prefixes a string with an absolute path to the final output directory.
-If a base path is set with an [environment variable](configuration.md#environment-variables)
-or a [project setting](configuration.html#project-settings) this path will be prefixed as well.
+The custom tag `static` prefixes a string with an absolute path to the final output directory. If a base path is set with an [environment variable](configuration.md#environment-variables) or a [project setting](configuration.html#project-settings) this path will be prefixed as well.
 
 ::: v-pre
 ```django

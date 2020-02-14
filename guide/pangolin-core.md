@@ -1,13 +1,11 @@
 # Pangolin.js Core
 
-This is the [core framework package](https://github.com/pangolinjs/core) that
-provides a dev server with a nice UI and builds the production files.
+This is the [core framework package](https://github.com/pangolinjs/core) that provides a dev server with a nice UI and builds the production files.
 
 ## CLI
 
 ::: tip Note
-The following commands are wrapped in [`package.json` scripts](usage.md#tasks).  
-They can be started with [`npm run`](https://docs.npmjs.com/cli/run-script).
+These commands are wrapped in [package.json scripts](usage.md#tasks), which can be started with [`npm run`](https://docs.npmjs.com/cli/run-script).
 :::
 
 ### Help and version
