@@ -64,6 +64,19 @@ module.exports = {
 }
 ```
 
+## Enable CORS for scripts
+
+Sometimes enabling [CORs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin) for scripts is necessary—for example if Basic authentication in combination with Safari is used.
+
+Setting the `crossorigin` configuration option adds the `crossorigin` HTML attribute to all `<script>` tags.
+
+```js
+module.exports = {
+  // Allowed values: 'anonymous', 'use-credentials', or ''
+  crossorigin: 'anonymous'
+}
+```
+
 ## Dev server
 
 ```js
