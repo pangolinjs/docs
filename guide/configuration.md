@@ -48,10 +48,6 @@ module.exports = {
     // Default: /
     base: '/project-base/',
 
-    // Disable webpack’s asset hashing
-    // Default: true
-    fileNameHash: false,
-
     // Set custom UI colors
     branding: {
       // Default: #ff721f
@@ -61,6 +57,19 @@ module.exports = {
       favicon: 'favicon.ico'
     }
   }
+}
+```
+
+## Filename hashing and manifest
+
+Append a hash to filenames. The default is `'imported'` which adds a hash to assets that are imported in other files (for example images or fonts). The option `'all'` adds a hash to all files (including the main JS and CSS files). To disable filename hashing completely set the property to `false`.
+
+To map source files to corresponding output files an asset manifest can be generated. The option defaults to `false` and can be set to `true`.
+
+```js
+module.exports = {
+  fileNameHash: false || 'imported' || 'all',
+  manifest: true
 }
 ```
 
