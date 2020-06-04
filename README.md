@@ -3,6 +3,7 @@ home: true
 heroImage: /icon.svg
 actionText: Get Started →
 actionLink: /guide/getting-started.md
+footer: Licensed under Hippocratic License 2.1 | Copyright © Fynn Becker
 features:
 - title: Nunjucks
   details: Nunjucks is an HTML templating engine based on JavaScript. Pangolin.js creates static HTML from Nunjucks files.
@@ -20,6 +21,3 @@ Create a new project with `npx` and the Pangolin.js CLI:
 ```bash
 npx @pangolinjs/cli create project-name
 ```
-
-<!-- markdownlint-disable MD033 -->
-<Footer />
