@@ -15,13 +15,13 @@
     "url": "https://github.com/pangolinjs/docs/issues",
     "email": "post@fynn.be"
   },
-  "license": "MPL-2.0",
+  "license": "Hippocratic-2.1",
   "private": true,
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "lint:markdown": "markdownlint . --ignore node_modules",
-    "lint:language": "alex *.md **/*.md"
+    "lint:markdown": "markdownlint . --ignore node_modules --ignore LICENSE.md",
+    "lint:language": "alex {about,README}.md {cookbook,guide}/**/*.md"
   },
   "devDependencies": {
     "alex": "^8.1.1",
