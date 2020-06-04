@@ -6,6 +6,6 @@
         src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
       >
     </a>
-    <p>Licensed under MPL-2.0 and MIT | Copyright © Fynn Becker</p>
+    <p>Licensed under Hippocratic License 2.1 | Copyright © Fynn Becker</p>
   </footer>
 </template>
