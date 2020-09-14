@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://pangolin.netlify.com/* https://pangolinjs.org/:splat 301!
