@@ -27,8 +27,12 @@ module.exports = {
         text: 'Versions',
         items: [
           {
-            text: 'v5',
+            text: 'v6',
             link: 'https://pangolinjs.org'
+          },
+          {
+            text: 'v5',
+            link: 'https://v5.pangolinjs.org'
           },
           {
             text: 'v4',
