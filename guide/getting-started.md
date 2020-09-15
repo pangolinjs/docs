@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* [Node.js v12.10 or higher](https://nodejs.org)
+* [Node.js v14.10 or higher](https://nodejs.org)
 
 ## Create a new project
 
@@ -13,13 +13,13 @@ Choose one of the following methods:
 ### CLI with [npx](https://github.com/npm/npx)
 
 ```bash
-npx @pangolinjs/cli create project-name
+npx @pangolinjs/cli@next create project-name
 ```
 
 ### Globally installed CLI
 
 ```bash
-npm install --global @pangolinjs/cli
+npm install --global @pangolinjs/cli@next
 pangolin create project-name
 ```
 
@@ -30,13 +30,11 @@ pangolin create project-name
 ├── src
 │   ├── components
 │   │   └── …
-│   ├── functions
+│   ├── css
+│   │   └── …
+│   ├── docs
 │   │   └── …
 │   ├── public
-│   │   └── …
-│   ├── setup
-│   │   └── …
-│   ├── templates
 │   │   └── …
 │   ├── main.js
 │   └── main.scss
@@ -59,12 +57,18 @@ pangolin create project-name
 | `postcss.config.js`   | [PostCSS](https://postcss.org) configuration                               |
 | `stylelint.config.js` | [stylelint](https://stylelint.io) configuration                            |
 
-### `src` folder
+### `src` files
 
-| Folder       | Purpose                                                                                   |
-|--------------|-------------------------------------------------------------------------------------------|
-| `components` | Everything is a component: the smallest button and the most complex page.                 |
-| `functions`  | <Badge text="Changeable" /> General purpose Sass or JavaScript functions.                 |
-| `public`     | Static files that will be copied 1:1 to the output directory.                             |
-| `setup`      | <Badge text="Changeable" /> Base files for global setup, e.g. variables or `body` styles. |
-| `templates`  | Nunjucks page templates. Must contain at least a `default.njk` template.                  |
+| File        | Purpose                                                                        |
+|-------------|--------------------------------------------------------------------------------|
+| `main.js`   | The main JavaScript entry point. Use this file to `import` all other JS files. |
+| `main.scss` | The main CSS entry point. Use this file to `@use` all other CSS files.         |
+
+### `src` folders
+
+| Folder       | Purpose                                                                                             |
+|--------------|-----------------------------------------------------------------------------------------------------|
+| `components` | Everything is a component: the smallest button and the most complex page.                           |
+| `css`        | <Badge text="Changeable" /> Global CSS files, like variables or body styles.                        |
+| `docs`       | <Badge text="Optional" /> [Fractal documentation pages](https://fractal.build/guide/documentation/) |
+| `public`     | Static files that will be copied as-is to the output directory.                                     |

@@ -5,6 +5,5 @@ Pangolin.js is a framework for design system development with Nunjucks, Sass, an
 * [Getting Started](getting-started.md)
 * [Configuration](configuration.md)
 * [Usage](usage.md)
-* [Templates](templates.md)
 * [Components](components.md)
 * [Testing](testing.md)
