@@ -3,7 +3,7 @@ home: true
 heroImage: /icon.svg
 actionText: Get Started →
 actionLink: /guide/getting-started.md
-footer: Licensed under Hippocratic License 2.1 | Copyright © Fynn Becker
+footer: Licensed under Hippocratic License 2.1 | Copyright Fynn Becker
 features:
 - title: Nunjucks
   details: Nunjucks is an HTML templating engine based on JavaScript. Pangolin.js creates static HTML from Nunjucks files.

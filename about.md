@@ -7,10 +7,10 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 ## Imprint
 
 **Fynn Becker**  
-[post@fynn.be](mailto:post@fynn.be)  
+[fynn@hey.com](mailto:fynn@hey.com)  
 +49 40 3020809676
 
-**LfdA - Labor für digitale Angelegenheiten GmbH**  
+LfdA - Labor für digitale Angelegenheiten GmbH  
 Lilienstraße 11  
 20095 Hamburg  
 Germany

@@ -16,7 +16,7 @@ module.exports = {
   themeConfig: {
     repo: 'pangolinjs',
     docsRepo: 'pangolinjs/docs',
-    docsBranch: 'master',
+    docsBranch: 'v5',
     editLinks: true,
     nav: [
       {
@@ -33,7 +33,7 @@ module.exports = {
       },
       {
         text: 'Changelog',
-        link: 'https://github.com/pangolinjs/core/blob/master/CHANGELOG.md'
+        link: 'https://github.com/pangolinjs/core/blob/v5/CHANGELOG.md'
       },
       {
         text: 'Versions',
