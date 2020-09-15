@@ -8,70 +8,30 @@ This is the [core framework package](https://github.com/pangolinjs/core) that pr
 These commands are wrapped in [package.json scripts](usage.md#tasks), which can be started with [`npm run`](https://docs.npmjs.com/cli/run-script).
 :::
 
-### Help and version
+## Dev
 
-```txt
-Usage: pangolin-core <command> [options]
+Start the development server with the web UI and file watching.
 
-Options:
-  -V, --version              output the version number
-  -h, --help                 output usage information
-
-Commands:
-  dev                        Start development server
-  build [options]            Build production files
-  lint <language> [options]  Lint CSS or JavaScript files
-  inspect <task> [options]   Generate and output webpack config
+```bash
+pangolin-core dev
 ```
 
-### Dev
+## Build
 
-```txt
-Usage: dev [options]
+Build production-ready files and a static export of the web UI.
 
-Start development server
-
-Options:
-  --open [browser]   Open in default or specific browser
-  --host <hostname>  Override the default 0.0.0.0 hostname
-  --port <port>      Override the default 8080 port
-  -h, --help         output usage information
+```bash
+pangolin-core build
 ```
 
-### Build
+## Inspect
 
-```txt
-Usage: build [options]
+Print the webpack config for the dev or build command to the console.
 
-Build production files
+```bash
+# Inspect the webpack dev config.
+pangolin-core inspect dev
 
-Options:
-  --dev       Build files for static file server
-  --modern    Build additional modern bundle
-  --report    Generate report with Webpack Bundle Analyzer
-  -h, --help  output usage information
-```
-
-### Linting
-
-```txt
-Usage: lint css|js [options]
-
-Lint CSS or JavaScript files
-
-Options:
-  -h, --help  output usage information
-```
-
-### Inspect
-
-```txt
-Usage: inspect dev|build [options]
-
-Generate and output webpack config
-
-Options:
-  --dev       Switch to dev mode for build task
-  --compact   Less line breaks in output
-  -h, --help  output usage information
+# Inpsect the webpack build config.
+pangolin-core inspect build
 ```
