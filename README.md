@@ -3,7 +3,7 @@ home: true
 heroImage: /icon.svg
 actionText: Get Started →
 actionLink: /guide/
-footer: GPL-3.0 Licensed | Copyright © Fynn Becker
+footer: GPL-3.0 Licensed | Copyright Fynn Becker
 ---
 
 ::: danger DEPRECATED
