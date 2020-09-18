@@ -62,6 +62,44 @@ export default {
 }
 ```
 
+## Template engine
+
+Customize the Nunjucks template engine. Detailed instructions are available in the [Fractal Nunjucks Adapter](https://github.com/frctl/fractal/tree/main/packages/nunjucks) documentation.
+
+```js
+export default {
+  engine: {
+    env: {
+      // Set up Nunjucks environment.
+      // https://mozilla.github.io/nunjucks/api.html#configure
+    },
+
+    globals: {
+      hello: 'world'
+    },
+
+    filters: {
+      // Create custom filters.
+      // https://mozilla.github.io/nunjucks/api.html#custom-filters
+      filterName: function () {}
+    },
+
+    extensions: {
+      // Create custom extensions.
+      // https://mozilla.github.io/nunjucks/api.html#custom-tags
+      extensionName: new ExtensionName()
+    },
+
+    paths: [
+      // Add search paths for the `include` and `import` tags.
+      // https://mozilla.github.io/nunjucks/templating.html#import
+      // https://mozilla.github.io/nunjucks/templating.html#include
+      "path/to/files"
+    ]
+  }
+}
+```
+
 ## webpack
 
 [webpack-chain](https://github.com/neutrinojs/webpack-chain) enables full control and extension of all aspects of the webpack configuration.
