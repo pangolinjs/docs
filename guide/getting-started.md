@@ -27,6 +27,8 @@ pangolin create project-name
 
 ```txt
 .
+├── public
+│   └── …
 ├── src
 │   ├── components
 │   │   └── …
@@ -34,7 +36,6 @@ pangolin create project-name
 │   │   └── …
 │   ├── docs
 │   │   └── …
-│   ├── public
 │   │   └── …
 │   ├── main.js
 │   └── main.scss
@@ -46,7 +47,7 @@ pangolin create project-name
 └── stylelint.config.js
 ```
 
-### Config files
+### Configuration
 
 | File                  | Purpose                                                                    |
 |-----------------------|----------------------------------------------------------------------------|
@@ -57,18 +58,18 @@ pangolin create project-name
 | `postcss.config.js`   | [PostCSS](https://postcss.org) configuration                               |
 | `stylelint.config.js` | [stylelint](https://stylelint.io) configuration                            |
 
-### `src` files
+### Folders
 
-| File        | Purpose                                                                        |
-|-------------|--------------------------------------------------------------------------------|
-| `main.js`   | The main JavaScript entry point. Use this file to `import` all other JS files. |
-| `main.scss` | The main CSS entry point. Use this file to `@use` all other CSS files.         |
+| Folder           | Purpose                                                                                             |
+|------------------|-----------------------------------------------------------------------------------------------------|
+| `public`         | Static files that will be copied as-is to the output directory.                                     |
+| `src/components` | Everything is a component: the smallest button and the most complex page.                           |
+| `src/css`        | <Badge text="Changeable" /> Global CSS files, like variables or body styles.                        |
+| `src/docs`       | <Badge text="Optional" /> [Fractal documentation pages](https://fractal.build/guide/documentation/) |
 
-### `src` folders
+### Files
 
-| Folder       | Purpose                                                                                             |
-|--------------|-----------------------------------------------------------------------------------------------------|
-| `components` | Everything is a component: the smallest button and the most complex page.                           |
-| `css`        | <Badge text="Changeable" /> Global CSS files, like variables or body styles.                        |
-| `docs`       | <Badge text="Optional" /> [Fractal documentation pages](https://fractal.build/guide/documentation/) |
-| `public`     | Static files that will be copied as-is to the output directory.                                     |
+| File            | Purpose                                                                        |
+|-----------------|--------------------------------------------------------------------------------|
+| `src/main.js`   | The main JavaScript entry point. Use this file to `import` all other JS files. |
+| `src/main.scss` | The main CSS entry point. Use this file to `@use` all other CSS files.         |
