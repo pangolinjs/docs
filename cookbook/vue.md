@@ -27,10 +27,10 @@ npm install --save-dev eslint-plugin-vue
 Extend your [pangolin.config.js](/guide/configuration.md) with the following settings:
 
 ```js
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
+import VueLoaderPlugin from 'vue-loader/lib/plugin'
 
-module.exports = {
-  chain (config) {
+export default {
+  webpack (config) {
     /* eslint-disable indent */
 
     config.module
@@ -59,7 +59,7 @@ If you chose to install the [ESLint plugin for Vue](https://eslint.vuejs.org), y
 module.exports = {
   root: true,
   extends: [
-    '@pangolinjs',
+    '@pangolinjs/eslint-config',
     'plugin:vue/recommended'
   ]
 }

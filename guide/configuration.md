@@ -61,3 +61,20 @@ export default {
   hashFiles: false || 'imported' || 'all'
 }
 ```
+
+## webpack
+
+[webpack-chain](https://github.com/neutrinojs/webpack-chain) enables full control and extension of all aspects of the webpack configuration.
+
+```js
+export default {
+  webpack (config) {
+    config
+      .plugin('progress')
+      .tap(args => {
+        args[0].name = 'Hello World'
+        return args
+      })
+  }
+}
+```
