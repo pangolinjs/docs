@@ -28,11 +28,12 @@ export default {
 export default {
   ui: {
     // Set the UI color scheme.
-    // Default: orange
-    color:
-      'aqua' || 'black' || 'blue' || 'default' || 'fuchsia' || 'green' ||
-      'grey' || 'lime' || 'maroon' || 'navy' || 'olive' || 'orange' ||
-      'purple' || 'red' || 'teal' || 'white' || 'yellow',
+    // Default: Pangolin.js colors
+    color: {
+      accent: '#ff721f',
+      complement: '#000',
+      links: '#7f390f'
+    },
 
     // Set the UI favicon relative to the public folder.
     // Default: /favicon.ico
