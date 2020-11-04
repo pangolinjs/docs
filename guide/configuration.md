@@ -46,7 +46,29 @@ export default {
 
     // Set the UI's html lang attribute.
     // Default: en
-    lang: 'de'
+    lang: 'de',
+
+    // Set UI labels.
+    // https://fractal.build/guide/web/default-theme.html#labels
+    // Default: Fractal default labels
+    labels: {
+      info: 'Meta'
+    },
+
+    // Set the sidebar information.
+    // Default: package.json "version" and build date in ISO format
+    information: [
+      {
+        label: 'Version',
+        value: 'v2-the-finalist'
+      },
+      {
+        label: 'Built on',
+        value: new Date(),
+        type: 'time',
+        format: value => value.toLocaleDateString('de')
+      }
+    ]
   }
 }
 ```
