@@ -17,7 +17,11 @@ export default {
 
     // Set the project's version.
     // Default: package.json "version" field
-    version: 'v10-final-final'
+    version: 'v10-final-final',
+
+    // Set the base path for assets.
+    // Default: /assets/
+    base: '/path/to/assets/
   }
 }
 ```
