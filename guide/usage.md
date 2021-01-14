@@ -6,13 +6,14 @@ Change your current terminal directory to the project root with `cd path/to/proj
 
 Then run tasks with `npm run task-name`, e.g. `npm run dev`.
 
-| Task       | Purpose                                                                                  |
-|------------|------------------------------------------------------------------------------------------|
-| `dev`      | Starts the development server with file watching and auto reload.                        |
-| `build`    | Builds production-ready files (output to `dist`) and static export (output to `static`). |
-| `inspect`  | Print the webpack configuration to the console.                                          |
-| `lint:css` | Lints CSS with [stylelint](https://stylelint.io).                                        |
-| `lint:js`  | Lints JavaScript with [ESLint](https://eslint.org).                                      |
+| Task       | Purpose                                                           |
+|------------|-------------------------------------------------------------------|
+| `dev`      | Starts the development server with file watching and auto reload. |
+| `build`    | Builds production-ready files (output to `dist`).                 |
+| `docs`     | Export for static file servers (output to `static`).              |
+| `inspect`  | Print the webpack configuration to the console.                   |
+| `lint:css` | Lints CSS with [stylelint](https://stylelint.io).                 |
+| `lint:js`  | Lints JavaScript with [ESLint](https://eslint.org).               |
 
 ::: tip Note
 Tasks are pre-defined `package.json` scripts for the corresponding
