@@ -20,5 +20,3 @@ Germany
 [Fractal](https://fractal.build) provides a great foundation for component libraries.
 
 These docs are powered by [VuePress](https://vuepress.vuejs.org) and hosted on [Netlify](https://www.netlify.com).
-
-The Pangolin.js CLI is inspired by [Vue CLI](https://cli.vuejs.org).
