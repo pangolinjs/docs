@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* [Node.js v14.10 or higher](https://nodejs.org)
+* [Node.js v15 or higher](https://nodejs.org)
 
 ## Create a new project
 
