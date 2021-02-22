@@ -1,6 +1,6 @@
 # Configuration
 
-Located at `pangolin.config.mjs` in the project root.
+Located at `pangolin.config.js` in the project root.
 
 ## Project
 
@@ -21,7 +21,7 @@ export default {
 
     // Set the base path for assets.
     // Default: /assets/
-    base: '/path/to/assets/
+    base: '/path/to/assets/'
   }
 }
 ```

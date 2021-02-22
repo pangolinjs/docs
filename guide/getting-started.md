@@ -36,36 +36,35 @@ pangolin create project-name
 │   │   └── …
 │   ├── docs
 │   │   └── …
-│   │   └── …
 │   ├── main.js
 │   └── main.scss
 ├── .browserslistrc
-├── .eslintrc.js
+├── .eslintrc.cjs
 ├── babel.config.js
 ├── [pangolin.config.js]
-├── postcss.config.js
-└── stylelint.config.js
+├── postcss.config.cjs
+└── stylelint.config.cjs
 ```
 
 ### Configuration
 
-| File                  | Purpose                                                                    |
-|-----------------------|----------------------------------------------------------------------------|
-| `.browserslistrc`     | [Browserslist](https://github.com/browserslist/browserslist) configuration |
-| `.eslintrc.js`        | [ESLint](https://eslint.org) configuration                                 |
-| `babel.config.js`     | [Babel](https://babeljs.io) configuration                                  |
-| `pangolin.config.js`  | <Badge text="Optional" /> [Pangolin](configuration.md) configuration       |
-| `postcss.config.js`   | [PostCSS](https://postcss.org) configuration                               |
-| `stylelint.config.js` | [stylelint](https://stylelint.io) configuration                            |
+| File                   | Purpose                                                                    |
+|------------------------|----------------------------------------------------------------------------|
+| `.browserslistrc`      | [Browserslist](https://github.com/browserslist/browserslist) configuration |
+| `.eslintrc.cjs`        | [ESLint](https://eslint.org) configuration                                 |
+| `babel.config.js`      | [Babel](https://babeljs.io) configuration                                  |
+| `pangolin.config.js`   | <Badge text="Optional" /> [Pangolin](configuration.md) configuration       |
+| `postcss.config.cjs`   | [PostCSS](https://postcss.org) configuration                               |
+| `stylelint.config.cjs` | [stylelint](https://stylelint.io) configuration                            |
 
 ### Folders
 
-| Folder           | Purpose                                                                                             |
-|------------------|-----------------------------------------------------------------------------------------------------|
-| `public`         | Static files that will be copied as-is to the output directory.                                     |
-| `src/components` | Everything is a component: the smallest button and the most complex page.                           |
-| `src/css`        | <Badge text="Changeable" /> Global CSS files, like variables or body styles.                        |
-| `src/docs`       | <Badge text="Optional" /> [Fractal documentation pages](https://fractal.build/guide/documentation/) |
+| Folder           | Purpose                                                                                              |
+|------------------|------------------------------------------------------------------------------------------------------|
+| `public`         | Static files that will be copied as-is to the output directory.                                      |
+| `src/components` | Everything is a component: the smallest button and the most complex page.                            |
+| `src/css`        | <Badge text="Changeable" /> Global CSS files, like variables or body styles.                         |
+| `src/docs`       | <Badge text="Optional" /> [Fractal documentation pages.](https://fractal.build/guide/documentation/) |
 
 ### Files
 
