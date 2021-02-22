@@ -15,7 +15,7 @@ features:
 
 <!-- markdownlint-disable MD041 -->
 
-::: warning BETA VERSION
+::: warning RELEASE CANDIDATE
 You are currently viewing the docs for the next Pangolin.js version (v6).
 :::
 
