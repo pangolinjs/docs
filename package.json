@@ -24,8 +24,7 @@
   },
   "devDependencies": {
     "alex": "^9.1.0",
-    "husky": "^4.3.0",
     "markdownlint-cli": "^0.26.0",
-    "vuepress": "^1.8.0"
+    "vuepress": "^1.8.2"
   }
 }
