@@ -1,7 +1,9 @@
 [build]
-  environment = { NODE_VERSION = "13" }
-  publish = ".vuepress/dist"
   command = "npm run build"
+  publish = ".vuepress/dist"
+
+[build.environment]
+  NODE_VERSION = "15"
 
 [[redirects]]
   from = "https://pangolin.netlify.app/*"
