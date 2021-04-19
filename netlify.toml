@@ -4,8 +4,9 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "https://pangolin.netlify.com/*"
+  from = "https://pangolin.netlify.app/*"
   to = "https://pangolinjs.org/:splat"
+  force = true
 
 [[headers]]
   for = "/*"
