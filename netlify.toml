@@ -6,3 +6,8 @@
 [[redirects]]
   from = "https://pangolin.netlify.com/*"
   to = "https://pangolinjs.org/:splat"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    permissions-policy = "interest-cohort=()"
