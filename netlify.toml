@@ -1,5 +1,5 @@
 [build]
-  environment = { NODE_VERSION = "13" }
+  environment = { NODE_VERSION = "16" }
   publish = ".vuepress/dist"
   command = "npm run build"
 
