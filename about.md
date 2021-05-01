@@ -8,7 +8,7 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 
 Fynn Becker
 
-[fynn@hey.com](mailto:fynn@hey.com)  
+[post@fynn.be](mailto:post@fynn.be)  
 +49 40 3020809676
 
 LfdA - Labor für digitale Angelegenheiten GmbH  
