@@ -3,7 +3,7 @@
   "description": "Documentation for Pangolin.js projects",
   "author": {
     "name": "Fynn Becker",
-    "email": "fynn@hey.com"
+    "email": "post@fynn.be"
   },
   "homepage": "https://pangolinjs.org",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "bugs": {
     "url": "https://github.com/pangolinjs/docs/issues",
-    "email": "fynn@hey.com"
+    "email": "post@fynn.be"
   },
   "license": "Hippocratic-2.1",
   "private": true,
