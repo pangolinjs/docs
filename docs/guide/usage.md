@@ -16,8 +16,7 @@ Then run tasks with `npm run task-name`, e.g. `npm run dev`.
 | `lint:js`  | Lints JavaScript with [ESLint](https://eslint.org).               |
 
 ::: tip Note
-Tasks are pre-defined `package.json` scripts for the corresponding
-[`pangolin-core` command](pangolin-core.md).
+Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core).
 :::
 
 ## JavaScript

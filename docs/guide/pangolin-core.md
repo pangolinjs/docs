@@ -5,7 +5,7 @@ This is the [core framework package](https://github.com/pangolinjs/core) that pr
 ## CLI
 
 ::: tip Note
-These commands are wrapped in [package.json scripts](usage.md#tasks), which can be started with [`npm run`](https://docs.npmjs.com/cli/run-script).
+These commands are wrapped in [package.json scripts](usage#tasks), which can be started with [`npm run`](https://docs.npmjs.com/cli/run-script).
 :::
 
 ## Dev

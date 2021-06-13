@@ -14,7 +14,7 @@ npm install vue
 npm install --save-dev vue-loader vue-template-compiler webpack
 ```
 
-### Install ESLint plugin <Badge text="Optional" />
+### Install ESLint plugin (Optional)
 
 ```bash
 npm install --save-dev eslint-plugin-vue
@@ -24,7 +24,7 @@ npm install --save-dev eslint-plugin-vue
 
 ### pangolin.config.js
 
-Extend your [pangolin.config.js](/guide/configuration.md) with the following settings:
+Extend your [pangolin.config.js](/guide/configuration) with the following settings:
 
 ```js
 import VueLoaderPlugin from 'vue-loader/lib/plugin'
@@ -51,7 +51,7 @@ export default {
 }
 ```
 
-### .eslintrc.js <Badge text="Optional" />
+### .eslintrc.js (Optional)
 
 If you chose to install the [ESLint plugin for Vue](https://eslint.vuejs.org), you can extend your ESLint configuration with the recommended rules:
 

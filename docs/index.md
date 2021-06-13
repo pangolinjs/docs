@@ -1,8 +1,9 @@
 ---
 home: true
 heroImage: /icon.svg
-actionText: Get Started →
-actionLink: /guide/getting-started.md
+heroAlt: Pangolin.js logo
+actionText: Get Started
+actionLink: /guide/
 footer: Licensed under Hippocratic License 2.1 | Copyright Fynn Becker
 features:
 - title: Nunjucks
@@ -14,10 +15,6 @@ features:
 ---
 
 <!-- markdownlint-disable MD041 -->
-
-::: warning RELEASE CANDIDATE
-You are currently viewing the docs for the next Pangolin.js version (v6).
-:::
 
 ## Quick start
 
