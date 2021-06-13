@@ -2,7 +2,11 @@
 
 ## Prerequisites
 
-* [Node.js v15 or higher](https://nodejs.org)
+* [Node.js v15](https://nodejs.org)
+
+::: warning
+Pangolin.js is only compatible with Node.js v15. We are waiting for a dependency to add v16 support.
+:::
 
 ## Create a new project
 
@@ -53,18 +57,18 @@ pangolin create project-name
 | `.browserslistrc`      | [Browserslist](https://github.com/browserslist/browserslist) configuration |
 | `.eslintrc.cjs`        | [ESLint](https://eslint.org) configuration                                 |
 | `babel.config.js`      | [Babel](https://babeljs.io) configuration                                  |
-| `pangolin.config.js`   | <Badge text="Optional" /> [Pangolin](configuration.md) configuration       |
+| `pangolin.config.js`   | (Optional) [Pangolin](configuration) configuration                         |
 | `postcss.config.cjs`   | [PostCSS](https://postcss.org) configuration                               |
 | `stylelint.config.cjs` | [stylelint](https://stylelint.io) configuration                            |
 
 ### Folders
 
-| Folder           | Purpose                                                                                              |
-|------------------|------------------------------------------------------------------------------------------------------|
-| `public`         | Static files that will be copied as-is to the output directory.                                      |
-| `src/components` | Everything is a component: the smallest button and the most complex page.                            |
-| `src/css`        | <Badge text="Changeable" /> Global CSS files, like variables or body styles.                         |
-| `src/docs`       | <Badge text="Optional" /> [Fractal documentation pages.](https://fractal.build/guide/documentation/) |
+| Folder           | Purpose                                                                               |
+|------------------|---------------------------------------------------------------------------------------|
+| `public`         | Static files that will be copied as-is to the output directory.                       |
+| `src/components` | Everything is a component: the smallest button and the most complex page.             |
+| `src/css`        | (Changeable) Global CSS files, like variables or body styles.                         |
+| `src/docs`       | (Optional) [Fractal documentation pages.](https://fractal.build/guide/documentation/) |
 
 ### Files
 
