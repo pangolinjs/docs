@@ -21,5 +21,5 @@ features:
 Create a new project with `npx` and the Pangolin.js CLI:
 
 ```bash
-npx @pangolinjs/cli@next create project-name
+npx @pangolinjs/cli create project-name
 ```
