@@ -17,13 +17,13 @@ Choose one of the following methods:
 ### CLI with [npx](https://github.com/npm/npx)
 
 ```bash
-npx @pangolinjs/cli@next create project-name
+npx @pangolinjs/cli create project-name
 ```
 
 ### Globally installed CLI
 
 ```bash
-npm install --global @pangolinjs/cli@next
+npm install --global @pangolinjs/cli
 pangolin create project-name
 ```
 
