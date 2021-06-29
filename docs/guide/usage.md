@@ -2,9 +2,19 @@
 
 ## Tasks
 
-Change your current terminal directory to the project root with `cd path/to/project`.
+Change the current terminal directory to the project root:
 
-Then run tasks with `npm run task-name`, e.g. `npm run dev`.
+```bash
+cd path/to/project
+```
+
+Then run tasks with `npm`, for example:
+
+```bash
+npm run dev
+```
+
+Available tasks:
 
 | Task       | Purpose                                                           |
 |------------|-------------------------------------------------------------------|
@@ -15,7 +25,7 @@ Then run tasks with `npm run task-name`, e.g. `npm run dev`.
 | `lint:css` | Lints CSS with [stylelint](https://stylelint.io).                 |
 | `lint:js`  | Lints JavaScript with [ESLint](https://eslint.org).               |
 
-::: tip Note
+::: tip About tasks
 Tasks are pre-defined `package.json` scripts for the corresponding [`pangolin-core` command](pangolin-core).
 :::
 

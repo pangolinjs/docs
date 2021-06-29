@@ -2,7 +2,7 @@
 
 Located at `src/components`.
 
-::: tip Fractal
+::: tip About Fractal
 Pangolin.js uses Fractal for the web UI. Fractal is an incredibly powerful system for component libraries. Head over to the [full documentation for Fractal](https://fractal.build) to learn more.
 :::
 
@@ -13,5 +13,5 @@ Additional information can be provided with a configuration and a documentation 
 | File                     | Purpose                                                                                                              |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------|
 | `*.njk`                  | Holds the component’s Nunjucks/HTML code.                                                                            |
-| `*.config.{js,json,yml}` | (Optional) [Configuration file](https://fractal.build/guide/core-concepts/configuration-files.html) for a component. |
-| `*.readme.md`            | (Optional) [Markdown documentation](https://fractal.build/guide/components/notes.html) for a component.              |
+| `*.config.{js,json,yml}` | (optional) [Configuration file](https://fractal.build/guide/core-concepts/configuration-files.html) for a component. |
+| `*.readme.md`            | (optional) [Markdown documentation](https://fractal.build/guide/components/notes.html) for a component.              |

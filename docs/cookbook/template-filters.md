@@ -1,6 +1,6 @@
 # Template Filters
 
-Custom filters for the template engine Nunjucks. Add filters to the [configuration file in your project’s root directory](../guide/configuration).
+Custom filters for the template engine Nunjucks. Add filters to the [configuration file](../guide/configuration).
 
 ## Date formatting
 
