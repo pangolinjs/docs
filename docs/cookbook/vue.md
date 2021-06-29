@@ -4,27 +4,19 @@ Pangolin.js uses [webpack](https://webpack.js.org) under the hood and generates 
 
 ## Installation
 
-### Install Vue.js
-
 ```bash
-# Install Vue.js as a dependency
-npm install vue
+# Install dependencies
+npm install vue@next
 
-# Install vue-loader and vue-template-compiler as development dependencies
-npm install --save-dev vue-loader vue-template-compiler webpack
-```
-
-### Install ESLint plugin (Optional)
-
-```bash
-npm install --save-dev eslint-plugin-vue
+# Install development dependencies
+npm install --save-dev vue-loader@next @vue/compiler-sfc
 ```
 
 ## Configuration
 
 ### pangolin.config.js
 
-Extend your [pangolin.config.js](/guide/configuration) with the following settings:
+Extend the [configuration](../guide/configuration) with the following settings:
 
 ```js
 import VueLoaderPlugin from 'vue-loader/lib/plugin'
@@ -51,20 +43,26 @@ export default {
 }
 ```
 
-### .eslintrc.js (Optional)
+### .eslintrc.js (optional)
 
-If you chose to install the [ESLint plugin for Vue](https://eslint.vuejs.org), you can extend your ESLint configuration with the recommended rules:
+Install the [ESLint plugin for Vue](https://eslint.vuejs.org):
+
+```bash
+npm install --save-dev eslint-plugin-vue
+```
+
+Extend the ESLint configuration:
 
 ```js
 module.exports = {
   root: true,
   extends: [
     '@pangolinjs/eslint-config',
-    'plugin:vue/recommended'
+    'plugin:vue/vue3-recommended'
   ]
 }
 ```
 
 ## Usage
 
-Now you are ready to import [single file components](https://vuejs.org/v2/guide/single-file-components.html) in Pangolin.js.
+Pangolin.js is now configured to import and handle [Vue Single File Components](https://v3.vuejs.org/guide/single-file-component.html).
