@@ -24,14 +24,14 @@
     "lint:language": "alex docs"
   },
   "devDependencies": {
-    "@pangolinjs/eslint-config": "^5.2.0",
+    "@pangolinjs/eslint-config": "^5.2.1",
     "alex": "^9.1.0",
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-promise": "^5.1.0",
     "markdownlint-cli": "^0.27.1",
-    "vitepress": "^0.14.1"
+    "vitepress": "^0.15.5"
   }
 }
