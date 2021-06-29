@@ -108,7 +108,7 @@ export default {
     filters: {
       // Create custom filters.
       // https://mozilla.github.io/nunjucks/api.html#custom-filters
-      filterName: function () {}
+      filterName () {}
     },
 
     extensions: {

@@ -71,6 +71,7 @@ function getCookbookSidebar () {
       collapsable: false,
       children: [
         { text: 'Introduction', link: '/cookbook/' },
+        { text: 'Template Filters', link: '/cookbook/template-filters' },
         { text: 'Vue.js', link: '/cookbook/vue' }
       ]
     }
