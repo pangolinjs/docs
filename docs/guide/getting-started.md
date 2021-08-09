@@ -2,11 +2,7 @@
 
 ## Prerequisites
 
-* [Node v15](https://nodejs.org)
-
-::: warning About Node compatibility
-Pangolin.js is currently only compatible with Node v15. We are waiting for a dependency to add v16 support.
-:::
+* [Node v15 or higher](https://nodejs.org)
 
 ## Create a new project
 
