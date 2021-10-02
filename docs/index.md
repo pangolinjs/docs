@@ -3,7 +3,7 @@ home: true
 heroImage: /icon.svg
 heroAlt: Pangolin.js logo
 actionText: Get Started
-actionLink: /guide/
+actionLink: /v6/guide/
 footer: Licensed under Hippocratic License 2.1 | Copyright Fynn Becker
 features:
 - title: Nunjucks

@@ -2,6 +2,6 @@
   "MD013": false,
   "MD031": false,
   "MD033": {
-    "allowed_elements": ["Badge"]
+    "allowed_elements": ["OutdatedVersion"]
   }
 }

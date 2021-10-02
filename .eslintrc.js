@@ -1,5 +1,15 @@
 module.exports = {
+  root: true,
   extends: [
-    '@pangolinjs'
+    '@pangolinjs/eslint-config',
+    'plugin:vue/vue3-recommended'
+  ],
+  overrides: [
+    {
+      files: '*.vue',
+      globals: {
+        defineProps: 'readonly'
+      }
+    }
   ]
 }

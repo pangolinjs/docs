@@ -31,6 +31,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.18.0",
     "markdownlint-cli": "^0.28.1",
     "vitepress": "^0.19.2"
   }

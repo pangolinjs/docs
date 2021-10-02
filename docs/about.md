@@ -6,7 +6,7 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 
 ## Imprint
 
-**Fynn Becker**
+Fynn Becker
 
 [post@fynn.be](mailto:post@fynn.be)
 

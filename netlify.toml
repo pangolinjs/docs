@@ -10,6 +10,36 @@
   to = "https://pangolinjs.org/:splat"
   force = true
 
+[[redirects]]
+  from = "https://v6.pangolinjs.org/*"
+  to = "https://pangolinjs.org/v6/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://v5.pangolinjs.org/*"
+  to = "https://pangolinjs.org/v5/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://v4.pangolinjs.org/*"
+  to = "https://pangolinjs.org/v4/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://v3.pangolinjs.org/*"
+  to = "https://pangolinjs.org/v3/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://v2.pangolinjs.org/*"
+  to = "https://pangolinjs.org/v2/:splat"
+  status = 302
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]

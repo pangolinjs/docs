@@ -1,1 +1,5 @@
 noBinary: true
+
+allow:
+  - colors
+  - execution
