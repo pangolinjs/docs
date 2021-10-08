@@ -25,6 +25,11 @@ module.exports = {
 
     editLinks: true,
 
+    algolia: {
+      apiKey: 'eb66a694abbaa2b74f625fb42debb606',
+      indexName: 'pangolinjs'
+    },
+
     nav: [
       { text: 'Guide', link: '/v6/guide/' },
       { text: 'Cookbook', link: '/v6/cookbook/' },
