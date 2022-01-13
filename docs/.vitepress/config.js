@@ -26,7 +26,8 @@ module.exports = {
     editLinks: true,
 
     algolia: {
-      apiKey: 'eb66a694abbaa2b74f625fb42debb606',
+      appId: 'P51QQ4RK1Z',
+      apiKey: '04239f26d0d9d2128797128dd18a14d6',
       indexName: 'pangolinjs'
     },
 
