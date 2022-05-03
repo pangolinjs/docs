@@ -3,7 +3,7 @@
   publish = "docs/.vitepress/dist"
 
 [build.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "17"
 
 [[redirects]]
   from = "https://pangolin.netlify.app/*"
@@ -39,8 +39,3 @@
   to = "https://pangolinjs.org/v2/:splat"
   status = 302
   force = true
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    permissions-policy = "interest-cohort=()"
