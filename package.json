@@ -14,7 +14,7 @@
     "url": "https://github.com/pangolinjs/docs/issues",
     "email": "post@fynn.be"
   },
-  "license": "Hippocratic-2.1",
+  "license": "Hippocratic-3.0",
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs",
