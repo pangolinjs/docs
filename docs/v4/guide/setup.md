@@ -5,15 +5,10 @@
 ## Prerequisites
 
 * [Node.js](https://nodejs.org)
-* [Yarn](https://yarnpkg.com) or npm (bundled with Node.js)
 
 Install the [CLI](https://github.com/front-end-styleguide/cli) globally:
 
 ```bash
-# Yarn
-yarn global add front-end-styleguide-cli
-
-# npm
 npm install -g front-end-styleguide-cli
 ```
 
@@ -32,8 +27,6 @@ cd project-name
 front-end-styleguide init
 
 # Install dependencies
-yarn
-# or
 npm install
 ```
 

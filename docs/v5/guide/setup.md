@@ -8,21 +8,10 @@
 
 ## Create a new project
 
-The following commands create a project in a new folder called `project-name`. To create a new project in the current directory use a `.` (dot) instead of a project name.
-
-Choose one of the following methods:
-
-### CLI with [npx](https://github.com/npm/npx)
+The following command creates a project in a new folder called `project-name`. To create a new project in the current directory use a `.` (dot) instead of a project name.
 
 ```bash
 npx @pangolinjs/cli create project-name
-```
-
-### Globally installed CLI
-
-```bash
-npm install --global @pangolinjs/cli
-pangolin create project-name
 ```
 
 ## Project structure

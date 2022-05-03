@@ -6,33 +6,21 @@
 
 ```bash
 # Start dev server
-yarn dev
-# or
 npm run dev
 
 # Build files for production (outputs to `dist`)
-yarn build
-# or
 npm run build
 
 # Create static styleguide (outputs to `dev`)
-yarn build:dev
-# or
 npm run build:dev
 
 # Create static styleguide without components (outputs to `proto`)
-yarn build:proto
-# or
 npm run build:proto
 
 # Run linting
-yarn lint
-# or
 npm run lint
 
 # Run unit tests (creates coverage-report) and e2e tests
-yarn test
-# or
 npm run test
 ```
 

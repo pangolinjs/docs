@@ -134,7 +134,7 @@ The styleguide ships with [svgxuse](https://github.com/Keyamoon/svgxuse), a poly
 
 ## Copy Utility
 
-Files that don’t fit in the above mentioned categories can be integrated into the styleguide with the copy utility `src/copy.js`. To copy files from Node modules, install the module with `yarn add module-name` or `npm install --save module-name` and add files or folders to `copy.js`.
+Files that don’t fit in the above mentioned categories can be integrated into the styleguide with the copy utility `src/copy.js`. To copy files from Node modules, install the module with `npm install --save module-name` and add files or folders to `copy.js`.
 
 `copy.js` contains an array of objects. Each object is a copy instruction and has a `folder`, `files`, `dest` and optional `exclude` key.
 

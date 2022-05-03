@@ -13,12 +13,8 @@ Uses the [Gulp](http://gulpjs.com/) task runner to
 ## Prerequisites
 
 * [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/) or npm (bundled with Node.js)
 
 ## Installation
-
-With Yarn:  
-`yarn global add front-end-styleguide-cli`
 
 With npm:  
 `npm install -g front-end-styleguide-cli`
