@@ -25,7 +25,7 @@ Nunjucks files support all [default templating features](https://mozilla.github.
 [Include](https://mozilla.github.io/nunjucks/templating.html#include) and [import](https://mozilla.github.io/nunjucks/templating.html#import) paths will be resolved relative to the `src` directory:
 
 ::: v-pre
-```django
+```twig
 {% include "components/atoms/hello.njk" %}
 
 {% import "components/atoms/hello.njk" as hello %}
@@ -38,7 +38,7 @@ Nunjucks files support all [default templating features](https://mozilla.github.
 The custom tag `static` prefixes a string with an absolute path to the final output directory. If a base path is set with an [environment variable](configuration#environment-variables) or a [project setting](configuration#project-settings) this path will be prefixed as well.
 
 ::: v-pre
-```django
+```twig
 <!-- Load an SVG image from `public/img` -->
 <img src="{% static 'img/logo.svg' %}" alt="Logo">
 

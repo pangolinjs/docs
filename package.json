@@ -26,13 +26,13 @@
   "devDependencies": {
     "@pangolinjs/eslint-config": "^6.0.0",
     "alex": "^10.0.0",
-    "eslint": "^8.14.0",
+    "eslint": "^8.17.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-n": "^15.2.2",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^8.7.1",
+    "eslint-plugin-vue": "^9.1.1",
     "markdownlint-cli": "^0.31.1",
-    "vitepress": "^0.22.3"
+    "vitepress": "^1.0.0-alpha.1"
   }
 }

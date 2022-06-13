@@ -11,7 +11,7 @@ Templates are used to render the basic HTML structure around components. A `defa
 The following is an example for a “minimal viable template”:
 
 ::: v-pre
-```django
+```twig
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,7 +32,7 @@ The following is an example for a “minimal viable template”:
 A slightly more advanced template may include more metadata or additional markup:
 
 ::: v-pre
-```django
+```twig
 <!DOCTYPE html>
 <html lang="en">
   <head>

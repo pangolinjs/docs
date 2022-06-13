@@ -1,25 +1,27 @@
 ---
-home: true
+layout: home
+title: Home
+
+hero:
+  name: Pangolin.js
+  tagline: Framework for design system development with Nunjucks, Sass, and JavaScript.
+  actions:
+    - text: Get started
+      link: /v6/guide/
+    - text: View on GitHub
+      link: https://github.com/pangolinjs
+      theme: alt
+
 heroImage: /icon.svg
 heroAlt: Pangolin.js logo
-actionText: Get Started
-actionLink: /v6/guide/
+
 footer: Licensed under Hippocratic License 2.1 | Copyright Fynn Becker
+
 features:
 - title: Nunjucks
-  details: Nunjucks is an HTML templating engine based on JavaScript. Pangolin.js creates static HTML from Nunjucks files.
-- title: Sass
-  details: Sass is a CSS preprocessor supporting variables, nesting and mixins – among many other features.
+  details: Nunjucks is an HTML templating engine for JavaScript based on Jinja. Pangolin.js creates static HTML from Nunjucks files.
+- title: Sass + PostCSS
+  details: Sass is a CSS preprocessor supporting static variables, nesting, and mixins. PostCSS runs the CSS through plugins, e.g. autoprefixer.
 - title: JavaScript
-  details: JavaScript files are bundled together with webpack and transpiled with Babel and the env preset.
+  details: JavaScript files are bundled together with webpack and transpiled with Babel and the env preset to support a specific browser set.
 ---
-
-<!-- markdownlint-disable MD041 -->
-
-## Quick start
-
-Create a new project with `npx` and the Pangolin.js CLI:
-
-```bash
-npx @pangolinjs/cli create project-name
-```

@@ -33,7 +33,7 @@ export default {
 
 [Locale and options documentation on MDN.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#syntax)
 
-```django
+```twig
 {{ "2021-06-29" | date }}
 Output: June 29, 2021
 

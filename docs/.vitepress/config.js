@@ -9,7 +9,6 @@ module.exports = {
   description: 'Framework for design system development with Nunjucks, Sass, and JavaScript.',
 
   head: [
-    ['link', { rel: 'stylesheet', href: '/custom.css' }],
     ['link', { rel: 'icon', href: '/icon.svg' }],
     ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
@@ -17,13 +16,14 @@ module.exports = {
   ],
 
   themeConfig: {
-    repo: 'pangolinjs/core',
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/pangolinjs' }
+    ],
 
-    docsRepo: 'pangolinjs/docs',
-    docsBranch: 'main',
-    docsDir: 'docs',
-
-    editLinks: true,
+    editLink: {
+      repo: 'pangolinjs/docs',
+      dir: 'docs'
+    },
 
     algolia: {
       appId: 'P51QQ4RK1Z',
@@ -53,9 +53,12 @@ module.exports = {
       '/v3/': v3.sidebar,
       '/v4/': v4.sidebar,
       '/v5/': v5.sidebar,
-      '/v6/': v6.sidebar,
+      '/v6/': v6.sidebar
+    },
 
-      '/': false
+    footer: {
+      message: 'Released under the Hippocratic License 3.0.',
+      copyright: 'Copyright Fynn Becker'
     }
   }
 }

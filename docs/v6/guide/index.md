@@ -7,3 +7,11 @@ Pangolin.js is a framework for design system development with Nunjucks, Sass, an
 * [Usage](usage)
 * [Components](components)
 * [Pangolin.js Core](pangolin-core)
+
+## Quick start
+
+Create a new project with `npx` and the Pangolin.js CLI:
+
+```bash
+npx @pangolinjs/cli create project-name
+```

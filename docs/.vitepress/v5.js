@@ -1,7 +1,7 @@
 module.exports.sidebar = [
   {
     text: 'Guide',
-    children: [
+    items: [
       { text: 'Introduction', link: '/v5/guide/' },
       { text: 'Setup', link: '/v5/guide/setup.html' },
       { text: 'Configuration', link: '/v5/guide/configuration.html' },
@@ -13,7 +13,7 @@ module.exports.sidebar = [
   },
   {
     text: 'Cookbook',
-    children: [
+    items: [
       { text: 'Introduction', link: '/v5/cookbook/' },
       { text: 'Vue.js', link: '/v5/cookbook/vue.html' }
     ]

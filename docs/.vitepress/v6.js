@@ -1,7 +1,7 @@
 module.exports.sidebar = [
   {
     text: 'Guide',
-    children: [
+    items: [
       { text: 'Introduction', link: '/v6/guide/' },
       { text: 'Setup', link: '/v6/guide/setup.html' },
       { text: 'Configuration', link: '/v6/guide/configuration.html' },
@@ -12,7 +12,7 @@ module.exports.sidebar = [
   },
   {
     text: 'Cookbook',
-    children: [
+    items: [
       { text: 'Introduction', link: '/v6/cookbook/' },
       { text: 'Configuration from Environment', link: '/v6/cookbook/configuration-from-environment.html' },
       { text: 'Template Filters', link: '/v6/cookbook/template-filters.html' },
