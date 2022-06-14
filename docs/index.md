@@ -12,11 +12,6 @@ hero:
       link: https://github.com/pangolinjs
       theme: alt
 
-heroImage: /icon.svg
-heroAlt: Pangolin.js logo
-
-footer: Licensed under Hippocratic License 2.1 | Copyright Fynn Becker
-
 features:
 - title: Nunjucks
   details: Nunjucks is an HTML templating engine for JavaScript based on Jinja. Pangolin.js creates static HTML from Nunjucks files.

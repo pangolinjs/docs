@@ -1,10 +1,10 @@
-const v2 = require('./v2.js')
-const v3 = require('./v3.js')
-const v4 = require('./v4.js')
-const v5 = require('./v5.js')
-const v6 = require('./v6.js')
+import * as v2 from './v2.js'
+import * as v3 from './v3.js'
+import * as v4 from './v4.js'
+import * as v5 from './v5.js'
+import * as v6 from './v6.js'
 
-module.exports = {
+export default {
   title: 'Pangolin.js',
   description: 'Framework for design system development with Nunjucks, Sass, and JavaScript.',
 

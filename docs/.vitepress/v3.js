@@ -1,4 +1,4 @@
-module.exports.sidebar = [
+export const sidebar = [
   {
     text: 'Guide',
     items: [
