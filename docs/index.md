@@ -5,6 +5,9 @@ title: Home
 hero:
   name: Pangolin.js
   tagline: Framework for design system development with Nunjucks, Sass, and JavaScript.
+  image:
+    src: /icon.svg
+    alt: ""
   actions:
     - text: Get started
       link: /v6/guide/
