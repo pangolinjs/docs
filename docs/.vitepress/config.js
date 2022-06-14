@@ -4,6 +4,7 @@ import * as v4 from './v4.js'
 import * as v5 from './v5.js'
 import * as v6 from './v6.js'
 
+/** @type {import('vitepress').UserConfig} */
 export default {
   title: 'Pangolin.js',
   description: 'Framework for design system development with Nunjucks, Sass, and JavaScript.',
@@ -16,8 +17,11 @@ export default {
   ],
 
   themeConfig: {
+    logo: '/icon.svg',
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/pangolinjs' }
+      { icon: 'github', link: 'https://github.com/pangolinjs' },
+      { icon: 'twitter', link: 'https://twitter.com/mvsde' }
     ],
 
     editLink: {
