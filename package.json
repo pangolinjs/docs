@@ -33,6 +33,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.1.1",
     "markdownlint-cli": "^0.31.1",
-    "vitepress": "^1.0.0-alpha.1"
+    "vitepress": "^1.0.0-alpha.2"
   }
 }
