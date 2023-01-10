@@ -1,9 +1,9 @@
 <script setup>
 defineProps({
-  version: {
-    type: String,
-    required: true
-  }
+	version: {
+		type: String,
+		required: true,
+	},
 })
 </script>
 
