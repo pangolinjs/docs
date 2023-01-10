@@ -13,6 +13,29 @@
   border-radius: 12px;
 }
 
+.Home-content {
+  margin-block-start: 48px;
+  padding-inline: 24px;
+}
+
+.Home-container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.Home-content .custom-block-title {
+  font-size: 18px;
+}
+
+.Home-content .custom-block h2 {
+  margin-block: 0.7em 0.3em;
+  font-weight: bold;
+}
+
+.Home-content .custom-block .header-anchor {
+  display: none;
+}
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(80px) opacity(0.6);
@@ -20,6 +43,10 @@
 
   .VPHero .image-src {
     max-width: 190px;
+  }
+
+  .Home-content {
+    padding-inline: 48px;
   }
 }
 
@@ -30,5 +57,9 @@
 
   .VPHero .image-src {
     max-width: 220px;
+  }
+
+  .Home-content {
+    padding-inline: 64px;
   }
 }

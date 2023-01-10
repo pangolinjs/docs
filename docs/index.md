@@ -23,3 +23,26 @@ features:
 - title: JavaScript
   details: JavaScript files are bundled together with webpack and transpiled with Babel and the env preset to support a specific browser set.
 ---
+
+<!-- markdownlint-disable no-inline-html -->
+<div class="Home-content"><div class="Home-container">
+<!-- markdownlint-enable no-inline-html -->
+
+::: warning Pangolin.js is currently unmaintained
+Please consider the following alternatives:
+
+## Component libraries
+
+* [miyagi](https://www.miyagi.dev/)
+* [Storybook](https://storybook.js.org/)
+* [Fractal](https://fractal.build/)
+
+## Build tools
+
+* [Vite](https://vitejs.dev/)
+* [PostCSS](https://postcss.org/)
+* [Rollup](https://rollupjs.org/)
+* [esbuild](https://esbuild.github.io/)
+:::
+
+</div></div>
