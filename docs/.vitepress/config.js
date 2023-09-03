@@ -22,7 +22,6 @@ export default {
 		socialLinks: [
 			{ icon: 'github', link: 'https://github.com/pangolinjs' },
 			{ icon: 'mastodon', link: 'https://mastodon.social/@mvsde' },
-			{ icon: 'twitter', link: 'https://twitter.com/mvsde' },
 		],
 
 		editLink: {
