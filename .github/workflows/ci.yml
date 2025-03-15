@@ -2,20 +2,14 @@ name: Continuous Integration
 on: [push]
 
 jobs:
-
   lint:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 19
-      - name: Install dependencies
-        run: npm ci
-      - name: Lint Markdown
-        run: npm run lint:markdown
-      - name: Lint language
-        run: npm run lint:language
+          node-version-file: .node-version
+      - run: npm ci
+      - run: node --run lint:markdown
+      - run: node --run lint:language

@@ -1,10 +1,13 @@
 :root {
-  --vp-c-brand: hsl(22 100% 56%);
-  --vp-c-brand-light: hsl(22 100% 45%);
-  --vp-c-brand-lighter: var(--vp-c-brand);
-  --vp-c-brand-dark: var(--vp-c-brand);
+  --vp-c-brand-1: hsl(22 100% 56%);
+  --vp-c-brand-2: var(--vp-c-brand);
+  --vp-c-brand-3: hsl(22 100% 45%);
 
-  --vp-home-hero-image-background-image: linear-gradient(0deg, var(--vp-c-brand) 30%, var(--vp-c-brand-light));
+  --vp-home-hero-image-background-image: linear-gradient(
+    0deg,
+    var(--vp-c-brand) 30%,
+    var(--vp-c-brand-light)
+  );
   --vp-home-hero-image-filter: blur(50px) opacity(0.5);
 }
 
@@ -15,12 +18,6 @@
 
 .Home-content {
   margin-block-start: 48px;
-  padding-inline: 24px;
-}
-
-.Home-container {
-  max-width: 1152px;
-  margin: 0 auto;
 }
 
 .Home-content .custom-block-title {
@@ -29,7 +26,6 @@
 
 .Home-content .custom-block h2 {
   margin-block: 0.7em 0.3em;
-  font-weight: bold;
 }
 
 .Home-content .custom-block .header-anchor {
@@ -44,10 +40,6 @@
   .VPHero .image-src {
     max-width: 190px;
   }
-
-  .Home-content {
-    padding-inline: 48px;
-  }
 }
 
 @media (min-width: 960px) {
@@ -57,9 +49,5 @@
 
   .VPHero .image-src {
     max-width: 220px;
-  }
-
-  .Home-content {
-    padding-inline: 64px;
   }
 }

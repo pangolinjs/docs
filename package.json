@@ -24,15 +24,15 @@
     "lint:language": "alex docs"
   },
   "devDependencies": {
-    "@pangolinjs/eslint-config": "^7.0.0",
-    "alex": "^11.0.0",
-    "eslint": "^8.31.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.6.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-vue": "^9.8.0",
-    "markdownlint-cli": "^0.33.0",
-    "vitepress": "^1.0.0-alpha.35"
+    "@pangolinjs/eslint-config": "^7.0.1",
+    "alex": "^11.0.1",
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.6.0",
+    "eslint-plugin-vue": "^9.33.0",
+    "markdownlint-cli": "^0.44.0",
+    "vitepress": "^1.6.3"
   }
 }
