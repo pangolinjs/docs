@@ -6,13 +6,14 @@ The name _Pangolin_ tries to raise awareness for the [dire situation](https://en
 
 ## Imprint
 
-Fynn Becker
+Fynn Ellie Becker
 
-[post@fynn.be](mailto:post@fynn.be)
+[post@fynn.be](mailto:post@fynn.be)\
+[fynn.be](https://fynn.be)
 
-℅ Factorial GmbH  
-Kirchentwiete 37-39  
-22765 Hamburg
+℅ Factorial GmbH\
+Langenfelder Straße 93\
+22769 Hamburg
 
 ## Acknowledgement
 
