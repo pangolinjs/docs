@@ -2,7 +2,7 @@
   "name": "@pangolinjs/docs",
   "description": "Documentation for Pangolin.js projects",
   "author": {
-    "name": "Fynn Becker",
+    "name": "Fynn Ellie Be",
     "email": "post@fynn.be"
   },
   "homepage": "https://pangolinjs.org",
@@ -14,7 +14,7 @@
     "url": "https://github.com/pangolinjs/docs/issues",
     "email": "post@fynn.be"
   },
-  "license": "Hippocratic-3.0",
+  "license": "ACSL",
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs",
@@ -28,11 +28,11 @@
     "alex": "^11.0.1",
     "eslint": "^8.57.1",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.6.0",
     "eslint-plugin-vue": "^9.33.0",
-    "markdownlint-cli": "^0.44.0",
-    "vitepress": "^1.6.3"
+    "markdownlint-cli": "^0.45.0",
+    "vitepress": "^1.6.4"
   }
 }

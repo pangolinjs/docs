@@ -60,8 +60,8 @@ export default {
 		},
 
 		footer: {
-			message: 'Released under the Hippocratic License 3.0.',
-			copyright: 'Copyright Fynn Becker',
+			message: 'Released under the Anti-Capitalist Software License (ACSL)',
+			copyright: '© Fynn Ellie Be',
 		},
 	},
 }

@@ -28,8 +28,8 @@ features:
 <div class="Home-content"><div class="Home-container">
 <!-- markdownlint-enable no-inline-html -->
 
-::: warning Pangolin.js is currently unmaintained
-Please consider the following alternatives:
+::: warning Pangolin.js is unmaintained
+Please consider the following alternatives.
 
 ## Component libraries
 

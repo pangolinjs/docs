@@ -19,4 +19,4 @@ Langenfelder Straße 93\
 
 [Fractal](https://fractal.build) provides a great foundation for component libraries.
 
-These docs are powered by [VitePress](https://vitepress.vuejs.org) and hosted on [Netlify](https://www.netlify.com).
+These docs are powered by [VitePress](https://vitepress.vuejs.org).
